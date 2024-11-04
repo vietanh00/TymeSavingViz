@@ -1,0 +1,12 @@
+Phase number, Phase name, Start date, End date
+1, Initiation, 8/4/2024, 15/4/2024
+2, Proposal, 16/4/2024, 2/5/2024
+3, Initial Frontend and Backend, 28/4/2024,9/5/2024
+4, Authentication and User Management, 2/5/2024, 19/5/2024
+5, Shared Budget and Transaction, 19/5/2024, 15/6/2024
+6, Semester break, 16/6/2024, 23/6/2024
+7, Group Saving and Invitation, 23/6/2024, 6/7/2024
+8, Financial Challenge, 7/7/2024, 20/7/2024
+9, MoMo integration, 21/7/2024, 10/8/2024
+10, Out of scope integration, 11/8/2024, 24/8/2024
+11, Testing & Bugfix, 25/8/2024, 14/9/2024

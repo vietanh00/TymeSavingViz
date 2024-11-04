@@ -1,0 +1,634 @@
+filename,Feature
+lib/screens/setting_page.dart,Other
+android/app/build.gradle,Other
+lib/components/invitation/group_invitation_card.dart,Invitation
+lib/screens/home/home_page.dart,Other
+lib/screens/more_menu/more_page.dart,Other
+lib/components/transaction/transaction_item.dart,Transaction
+lib/components/transaction/transaction_section.dart,Transaction
+lib/components/user/user_tile.dart,User
+android/build.gradle,Other
+pubspec.lock,Other
+lib/components/monthly_report/expense_card.dart,Transaction
+lib/components/monthly_report/income_card.dart,Transaction
+lib/components/monthly_report/netspend_card.dart,Transaction
+lib/screens/user_list/member_detail_page.dart,User
+lib/services/invitation_service.dart,Invitation
+lib/components/invitation/group_invitation_card_backup.dart,Invitation
+lib/screens/about_contact/about_us.dart,Other
+lib/components/user/member_card.dart,User
+lib/components/user/user_card.dart,User
+pubspec.yaml,Other
+lib/components/invitation/auth_user_invitation_card.dart,User
+lib/components/invitation/auth_user_invitation_card_backup.dart,User
+lib/screens/error_page.dart,Other
+lib/screens/setting_page_backup.dart,Other
+lib/form/common_form/transaction_form.dart,Transaction
+lib/screens/splash_screen.dart,Other
+lib/components/transaction/transaction_item_backup.dart,Transaction
+lib/common/styles/app_color.dart,Other
+lib/components/common/multi_form_components/group_tile.dart,Other
+assets/img/about_us_banner.png,Assets
+lib/components/momo/momo_open_buttom.dart,Transaction
+lib/form/invitation_add_form.dart,Invitation
+lib/components/common/sheet/bottom_sheet.dart,Other
+lib/screens/invitation/group_pending_invitation_page.dart,Invitation
+lib/screens/search_page.dart,Other
+assets/fonts/Merriweather/Merriweather-Black.ttf,Assets
+assets/fonts/Merriweather/Merriweather-BlackItalic.ttf,Assets
+assets/fonts/Merriweather/Merriweather-Bold.ttf,Assets
+assets/fonts/Merriweather/Merriweather-BoldItalic.ttf,Assets
+assets/fonts/Merriweather/Merriweather-Italic.ttf,Assets
+assets/fonts/Merriweather/Merriweather-Light.ttf,Assets
+assets/fonts/Merriweather/Merriweather-LightItalic.ttf,Assets
+assets/fonts/Merriweather/Merriweather-Regular.ttf,Assets
+lib/common/enum/momo_payment_status_enum.dart,Transaction
+lib/common/styles/app_text_style.dart,Other
+lib/common/styles/app_theme.dart,Other
+lib/components/common/animation_progress_bar.dart,FinancialChallenge
+lib/components/main_page_layout/show_add_options.dart,Other
+lib/components/category_list/category_selection.dart,Other
+lib/components/common/rounded_icon.dart,Other
+lib/components/common/multi_form_components/comonent_multi_form.dart,Other
+lib/common/styles/app_extend_theme.dart,Other
+lib/utils/display_warning.dart,Other
+lib/utils/display_success.dart,Other
+lib/utils/display_error.dart,Other
+lib/components/momo/momo_transaction_form.dart,Transaction
+lib/form/milestone_create.dart,Other
+lib/components/common/multi_form_components/amount_multi_form.dart,Other
+lib/form/common_form/budget_form.dart,SharedBudget
+lib/form/common_form/group_saving_form.dart,GroupSaving
+lib/utils/input_format_currency.dart,Other
+lib/services/multi_page_form_service.dart,Other
+lib/form/challenge_add_form.dart,FinancialChallenge
+lib/screens/budget/budget_list_page.dart,SharedBudget
+lib/screens/challenge/challenge_page.dart,FinancialChallenge
+lib/screens/group_saving/group_saving_list_page.dart,GroupSaving
+lib/screens/user_profile/update_user_page.dart,User
+lib/screens/user_profile/update_user_password_page.dart,User
+lib/components/budget/budget_approve_page.dart,SharedBudget
+lib/components/common/button/primary_button.dart,Other
+lib/components/common/heading.dart,Other
+lib/components/dismiss_keyboard.dart,Other
+lib/form/login_form.dart,Other
+lib/screens/authentication/sign_in_page.dart,Other
+lib/screens/authentication/sign_up_page.dart,Other
+lib/utils/dismiss_keyboard.dart,Other
+android/app/src/main/kotlin/com/example/tymesavingfrontend/MainActivity.kt,GroupSaving
+linux/flutter/ephemeral/.plugin_symlinks/file_selector_linux,Other
+linux/flutter/ephemeral/.plugin_symlinks/image_picker_linux,Other
+linux/flutter/ephemeral/.plugin_symlinks/path_provider_linux,Other
+linux/flutter/ephemeral/.plugin_symlinks/shared_preferences_linux,Other
+linux/flutter/ephemeral/.plugin_symlinks/url_launcher_linux,Other
+lib/components/challenge/challenge_details_member.dart,User
+lib/components/challenge/reward_history.dart,FinancialChallenge
+lib/components/budget/budget_card.dart,SharedBudget
+lib/components/challenge/challenge_card.dart,FinancialChallenge
+lib/components/common/images/circle_network_image.dart,Other
+lib/components/group_saving/group_saving_card.dart,GroupSaving
+lib/screens/challenge/challenge_details.dart,FinancialChallenge
+lib/services/budget_service.dart,SharedBudget
+lib/components/more_page/more_challenge_widget.dart,FinancialChallenge
+lib/components/more_page/more_user_box_widget.dart,User
+lib/components/budget/budget_details.dart,SharedBudget
+lib/components/group_saving/group_saving_details.dart,GroupSaving
+lib/components/more_page/more_setting_widget.dart,Other
+lib/screens/user_profile/user_profile_page.dart,User
+.metadata,Other
+android/app/src/main/kotlin/com/ni/tymesavingfrontend/MainActivity.kt,GroupSaving
+lib/components/challenge/checkpoint_details.dart,FinancialChallenge
+linux/.gitignore,Other
+linux/CMakeLists.txt,Other
+linux/flutter/CMakeLists.txt,Other
+linux/main.cc,Other
+linux/my_application.cc,Other
+linux/my_application.h,Other
+lib/components/transaction/transaction_dialog.dart,Transaction
+lib/models/transaction_model.dart,Transaction
+lib/services/transaction_service.dart,Transaction
+lib/components/common/sheet/icon_text_row.dart,Other
+lib/models/reward_history_model.dart,FinancialChallenge
+lib/services/challenge_service.dart,FinancialChallenge
+lib/services/utils/get_backend_endpoint.dart,FinancialChallenge
+lib/components/transaction/transaction_monthly.dart,Transaction
+lib/components/budget/budget_report.dart,SharedBudget
+lib/components/group_saving/group_saving_report.dart,GroupSaving
+lib/components/transaction/transaction_list.dart,Transaction
+lib/screens/transaction/transaction_update_page.dart,Transaction
+lib/components/common/chart/custom_pie_chart.dart,Other
+lib/components/{transaction_tracking => monthly_report}/expense_card.dart,Transaction
+lib/components/{transaction_tracking => monthly_report}/income_card.dart,Transaction
+lib/components/{transaction_tracking => monthly_report}/netspend_card.dart,Transaction
+lib/components/{transaction_tracking => monthly_report}/tip_card.dart,Transaction
+lib/components/report_page/inflow_header.dart,Other
+lib/components/report_page/outflow_header.dart,Other
+lib/components/report_page/report_detail.dart,Transaction
+lib/components/transaction_tracking/transaction_item.dart,Transaction
+lib/models/{transaction_report_model.dart => monthly_report_model.dart},Transaction
+lib/screens/tracking_report/report_page.dart,Transaction
+lib/screens/tracking_report/spend_tracking.dart,Transaction
+ios/Runner.xcodeproj/project.pbxproj,Other
+lib/components/invitation/widget_detailed_summary_group.dart,Invitation
+lib/models/invitation_model.dart,Invitation
+lib/models/summary_group_model.dart,Other
+ios/Runner/Info.plist,Other
+macos/Runner.xcodeproj/project.pbxproj,Other
+macos/Runner/Configs/AppInfo.xcconfig,Other
+lib/components/group_saving/saving_approve_page.dart,GroupSaving
+ios/Podfile.lock,Other
+lib/services/user_service.dart,User
+linux/flutter/generated_plugin_registrant.cc,Other
+linux/flutter/generated_plugin_registrant.h,Other
+linux/flutter/generated_plugins.cmake,Other
+lib/components/transaction_tracking/tip_card.dart,Transaction
+lib/components/report_page/empty_case_outflow.dart,Other
+lib/models/transaction_report_model.dart,Transaction
+lib/components/common/chart/custom_line_chart.dart,Other
+lib/components/transaction_tracking/expense_card.dart,Transaction
+lib/components/transaction_tracking/income_card.dart,Transaction
+lib/components/transaction_tracking/netspend_card.dart,Transaction
+lib/components/QRcode/qr_scan_page.dart,Other
+lib/components/QRcode/qr_page.dart,Other
+.vscode/settings.json,Other
+macos/Flutter/GeneratedPluginRegistrant.swift,Other
+lib/screens/transaction/view_all_transaction_page.dart,Transaction
+lib/components/user/user_detail_widget.dart,User
+lib/models/challenge_model.dart,FinancialChallenge
+lib/services/group_saving_service.dart,GroupSaving
+lib/utils/format_amount.dart,Other
+lib/components/category_list/category_short_selection.dart,Other
+lib/models/base_user_model.dart,User
+lib/screens/main_page_layout.dart,Other
+lib/models/base_group_model.dart,Other
+lib/common/enum/transaction_form_write_policy_enum.dart,Transaction
+lib/components/common/multi_form_components/images_uploading_multi_form.dart,Other
+lib/components/common/multi_form_components/assign_group_multi_form.dart,Other
+lib/common/enum/approve_status_enum.dart,Other
+lib/common/enum/rank_color_enum.dart,Other
+lib/components/common/input/underline_text_field.dart,Other
+lib/components/common/multi_form_components/short_group_info_multi_form.dart,Other
+lib/screens/home_page.dart,Other
+android/app/src/main/AndroidManifest.xml,Other
+lib/screens/momo_payment_page.dart,Transaction
+lib/components/momo/momo_transaction_sheet.dart,Transaction
+lib/screens/budget/budget_update_page.dart,SharedBudget
+lib/screens/user_list/member_list_page.dart,User
+lib/main.dart,Other
+lib/models/momo/momo_payment_info_model.dart,Transaction
+lib/models/momo/momo_payment_response_model.dart,Transaction
+lib/screens/momo_payment_result_page.dart,Transaction
+lib/services/momo_payment_service.dart,Transaction
+windows/flutter/generated_plugin_registrant.cc,Other
+windows/flutter/generated_plugins.cmake,Other
+README.md,Other
+test/login_test.dart,Other
+test/test_auth_service.dart,Other
+test/test_auth_service.mocks.dart,Other
+test/widget_test.dart,Other
+lib/form/group_saving_add_form.dart,GroupSaving
+lib/components/common/input/multiline_text_field.dart,Other
+lib/utils/validator.dart,Other
+lib/form/transaction_add_form.dart,Transaction
+lib/screens/notifications_page.dart,Other
+ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme,Other
+assets/img/momo_icon.png,Transaction
+test/sign_up_test.dart,Other
+lib/components/challenge/checkpoint_card.dart,FinancialChallenge
+lib/components/common_group/group_heading_actions.dart,Other
+lib/components/challenge/challenge_non_listing.dart,FinancialChallenge
+lib/services/auth_service.dart,Other
+lib/components/common/images/rounded_network_image.dart,Other
+lib/components/full_screen_image.dart,Other
+lib/components/invitation/widget_invitation_user_selected.dart,User
+lib/form/update_user_form.dart,User
+lib/screens/image_upload_page.dart,Other
+lib/services/utils/network_service.dart,Other
+lib/components/common/chart/custom_bar_chart.dart,Other
+android/app/src/main/res/ic_launcher-web.png,Assets
+android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml,Assets
+android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml,Assets
+android/app/src/main/res/mipmap-hdpi/ic_launcher.png,Assets
+android/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png,Assets
+android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png,Assets
+android/app/src/main/res/mipmap-ldpi/ic_launcher.png,Assets
+android/app/src/main/res/mipmap-mdpi/ic_launcher.png,Assets
+android/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png,Assets
+android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png,Assets
+android/app/src/main/res/mipmap-xhdpi/ic_launcher.png,Assets
+android/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png,Assets
+android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png,Assets
+android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png,Assets
+android/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png,Assets
+android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png,Assets
+android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png,Assets
+android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png,Assets
+android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png,Assets
+android/app/src/main/res/playstore-icon.png,Assets
+android/app/src/main/res/values/ic_launcher_background.xml,Assets
+ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json,Assets
+ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png,Assets
+ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png,Assets
+ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png,Assets
+ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png,Assets
+ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png,Assets
+ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png,Assets
+ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png,Assets
+ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png,Assets
+ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png,Assets
+ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png,Assets
+ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png,Assets
+ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png,Assets
+ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png,Assets
+ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png,Assets
+ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png,Assets
+ios/Runner/Assets.xcassets/AppIcon.appiconset/ItunesArtwork@2x.png,Assets
+ios/Runner/Assets.xcassets/LaunchBackground.imageset/Contents.json,Assets
+ios/Runner/Assets.xcassets/LaunchBackground.imageset/background.png,Assets
+ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json,Assets
+ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png,Assets
+ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png,Assets
+ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png,Assets
+ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md,Assets
+lib/models/report_model.dart,Other
+assets/img/app_icon.png,Assets
+lib/common/enum/form_state_enum.dart,Other
+lib/components/common/chart/report_pie_chart_categories.dart,Other
+lib/components/common/chart/report_pie_chart_user.dart,User
+lib/components/transaction/infor_row.dart,Transaction
+macos/Podfile.lock,Other
+lib/components/heading/heading_actions_based_location.dart,Other
+lib/components/transaction/transaction_sort_filter.dart,Transaction
+lib/components/report_page/report_flow.dart,Other
+lib/components/heading/heading_title_based_location.dart,Other
+lib/common/enum/transaction_group_type_enum.dart,Transaction
+lib/components/common/chart/budget_pie_chart.dart,SharedBudget
+lib/components/common/chart/group_saving_half_chart.dart,GroupSaving
+lib/common/enum/expense_transaction_category_enum.dart,Transaction
+lib/common/enum/income_transaction_category_enum.dart,Transaction
+lib/common/enum/challenge_category_enum.dart,FinancialChallenge
+lib/common/enum/challenge_scope_enum.dart,FinancialChallenge
+lib/screens/challenge/challenge_list_page.dart,FinancialChallenge
+lib/common/enum/transaction_category_enum.dart,Transaction
+lib/form/common_form/goal_form.dart,Other
+lib/screens/challenge/challenge_details_page.dart,FinancialChallenge
+lib/models/reward_model.dart,FinancialChallenge
+lib/models/checkpoint_model.dart,FinancialChallenge
+assets/img/checkpoint_background.png,FinancialChallenge
+lib/common/enum/page_location_enum.dart,Other
+lib/components/common/dialog/delete_confirm_dialog.dart,Other
+lib/components/common_group/group_sort_filter.dart,Other
+lib/form/common_form/{goal_form.dart => group_saving_form.dart},GroupSaving
+lib/form/{goal_add_form.dart => group_saving_add_form.dart},GroupSaving
+lib/screens/group_saving/group_saving_update_page.dart,GroupSaving
+lib/screens/more_menu/reward_details.dart,FinancialChallenge
+.vscode/launch.json,Other
+lib/common/styles/button_theme_data.dart,Other
+lib/components/common/button/secondary_button.dart,Other
+lib/screens/authentication/input_pin_page.dart,Other
+lib/utils/global_keys.dart,Other
+lib/common/constant/local_storage_key_constant.dart,Other
+lib/common/enum/theme_mode_type_enum.dart,Other
+lib/services/theme_service.dart,Other
+lib/components/category_list/category_icon.dart,Other
+lib/components/common/sort_box.dart,Other
+lib/components/invitation/invitation_sort_filter.dart,Invitation
+lib/components/user/user_sort_filter.dart,User
+lib/common/enum/invitation_status_enum.dart,Invitation
+lib/common/enum/invitation_type_enum.dart,Invitation
+lib/common/enum/transaction_type_enum.dart,Transaction
+lib/components/common/not_found_message.dart,Other
+lib/components/common/chart/group_saving_pie_chart.dart,GroupSaving
+lib/components/common/input/radio_field.dart,Other
+lib/components/common/theme_toggle_switch.dart,Other
+lib/components/{goal/goal_card.dart => group_saving/group_saving_card.dart},GroupSaving
+lib/form/goal_add_form.dart,Other
+lib/models/budget_model.dart,SharedBudget
+lib/models/goal_model.dart,Other
+lib/models/group_saving_model.dart,GroupSaving
+lib/screens/{goal/goal_list_page.dart => group_saving/group_saving_list_page.dart},GroupSaving
+lib/screens/{goal/goal_update_page.dart => group_saving/group_saving_update_page.dart},GroupSaving
+lib/services/goal_service.dart,Other
+lib/components/goal/goal_card.dart,Other
+lib/components/invitation/invitation_add_widget.dart,Invitation
+lib/models/invitation/invitation_form_model.dart,Invitation
+lib/models/{invitation => }/invitation_model.dart,Invitation
+lib/components/invitation_add_modal.dart,Invitation
+lib/models/{ => invitation}/invitation_model.dart,Invitation
+lib/utils/handling_error.dart,Other
+lib/components/search_user_delegate.dart,User
+lib/screens/forbidden_page.dart,Other
+lib/screens/user_list/user_list_page.dart,User
+android/app/src/main/res/xml/file_paths.xml,Assets
+lib/models/summary_user_model.dart,User
+lib/models/user_model.dart,User
+macos/Runner/Info.plist,Other
+lib/components/common/text_align.dart,Other
+lib/utils/format_date.dart,Other
+lib/components/common/custom_shape_painter.dart,Other
+lib/screens/goal/goal_update_page.dart,Other
+lib/screens/user_list/other_user_detail_page.dart,User
+lib/screens/user_list/user_detail_page.dart,User
+lib/screens/{ => user_list}/member_list_page.dart,User
+lib/components/common/{ => images}/circle_network_image.dart,Other
+lib/components/common/{ => sheet}/bottom_sheet.dart,Other
+lib/form/budget_add_form.dart,SharedBudget
+assets/img/forbidden.svg,Assets
+lib/components/common/circle_network_image.dart,Other
+lib/screens/member_list_page.dart,User
+lib/models/member_model.dart,User
+lib/models/user_model.txt,User
+lib/{components/multiple_page_sheet => form}/budget_add_form.dart,SharedBudget
+lib/{components/multiple_page_sheet/common => form/common_form}/budget_form.dart,SharedBudget
+lib/{components/multiple_page_sheet/common => form/common_form}/goal_form.dart,Other
+lib/{components/multiple_page_sheet/common => form/common_form}/transaction_form.dart,Transaction
+lib/{components/multiple_page_sheet => form}/goal_add_form.dart,Other
+lib/{components/multiple_page_sheet => form}/transaction_add_form.dart,Transaction
+lib/components/multiple_page_sheet/common/budget_form.dart,SharedBudget
+lib/components/multiple_page_sheet/common/goal_form.dart,Other
+lib/components/transaction/{transaction_screen.dart => transaction_section.dart},Transaction
+lib/components/multiple_page_sheet/common/add_amount_calculator.dart,Other
+lib/components/multiple_page_sheet/goal_add_form.dart,Other
+lib/screens/goal/goal_list_page.dart,Other
+lib/screens/home/home_admin_page.dart,Other
+lib/screens/home/budget_list_page.dart,SharedBudget
+lib/components/multiple_page_sheet/budget_add_form.dart,SharedBudget
+lib/components/{multiple_page_sheet/common => category_list}/category_icon.dart,Other
+lib/components/{multiple_page_sheet/common/transaction_selection_sheet.dart => category_list/category_selection.dart},Transaction
+lib/components/multiple_page_sheet/common/{add_transaction_form_main.dart => transaction_form.dart},Transaction
+lib/components/multiple_page_sheet/transaction_add_form.dart,Transaction
+lib/components/multiple_page_sheet/common/add_transaction_form_main.dart,Transaction
+lib/components/transaction/month_tab.dart,Transaction
+lib/components/transaction/transaction_screen.dart,Transaction
+lib/models/{transaction.model.dart => transaction_model.dart},Transaction
+lib/components/common/dialog/date_picker_dialog.dart,Other
+lib/components/common/dialog/input_dialog.dart,Other
+lib/components/common/dialog/time_picker_dialog.dart,Other
+lib/components/common/{ => input}/round_text_field.dart,Other
+lib/form/signup_form.dart,User
+lib/form/update_password_form.dart,Other
+lib/components/common/round_text_field.dart,Other
+lib/components/multiple_page_sheet/common/category_icon.dart,Other
+lib/components/multiple_page_sheet/common/transaction_selection_sheet.dart,Transaction
+assets/img/splash_dark.png,Assets
+lib/utils/navigate_between_sheet.dart,Other
+lib/components/common/bottom_sheet.dart,Other
+lib/components/common/filter_box.dart,Other
+lib/common/styles/app_padding.dart,Other
+lib/models/transaction.model.dart,Transaction
+lib/common/enum/{invitation_type.enum.dart => invitation_type_enum.dart},Invitation
+lib/models/budget_group_model.dart,SharedBudget
+lib/screens/wallet_report_screens/report_page.dart,Transaction
+lib/screens/wallet_report_screens/spend_tracking.dart,Transaction
+lib/user.dart,User
+lib/components/recent_transaction/transaction_list.dart,Transaction
+lib/components/recent_transaction/transaction_month_tabs.dart,Transaction
+lib/components/{recent_transaction => transaction}/month_tab.dart,Transaction
+lib/components/transaction/transaction_month_tabs.dart,Transaction
+lib/components/recent_transaction/month_tab.dart,Transaction
+lib/components/report_page/outflow_detail.dart,Other
+lib/components/{mywallet_page => transaction_tracking}/expense_card.dart,Transaction
+lib/components/{mywallet_page => transaction_tracking}/income_card.dart,Transaction
+lib/components/{mywallet_page => transaction_tracking}/tip_card.dart,Transaction
+lib/components/{mywallet_page => transaction_tracking}/transaction_item.dart,Transaction
+lib/screens/{wallet_report_screens => tracking_report}/report_page.dart,Transaction
+lib/screens/{wallet_report_screens => tracking_report}/spend_tracking.dart,Transaction
+ios/Runner.xcworkspace/contents.xcworkspacedata,Other
+macos/Runner.xcworkspace/contents.xcworkspacedata,Other
+lib/common/enum/invitation_type.enum.dart,Invitation
+lib/common/enum/user_role_enum.dart,User
+.gitignore,Other
+lib/screens/wallet_report_screens/{mywallet_page.dart => spend_tracking.dart},Transaction
+lib/components/mywallet_page/{mywallet_transaction.dart => expense_card.dart},Transaction
+lib/components/mywallet_page/income_card.dart,Transaction
+lib/components/mywallet_page/tip_card.dart,Transaction
+lib/screens/wallet_report_screens/mywallet_page.dart,Transaction
+lib/models/{transaction_report.model.dart => transaction_report_model.dart},Transaction
+lib/models/{user.model.dart => user_model.dart},User
+lib/common/constant/temp_constant.dart,Other
+lib/components/common/divider_with_text.dart,Other
+lib/components/mywallet_page/mywallet_transaction.dart,Transaction
+lib/components/mywallet_page/transaction_item.dart,Transaction
+lib/components/update_user_profile/build_info_template.dart,User
+lib/services/utils/local_storage_service.dart,Other
+lib/models/transaction_report.model.dart,Transaction
+lib/layouts/login_form.dart,Other
+lib/layouts/main_page_layout.dart,Other
+lib/layouts/signup_form.dart,User
+lib/layouts/update_password_form.dart,Other
+lib/layouts/update_user_form.dart,User
+lib/screens/home_admin_page.dart,Other
+lib/common/enum/button_theme_enum.dart,Other
+lib/components/common/secondary_button.dart,Other
+lib/models/{user_model.dart => user_model.txt},User
+lib/utils/later.txt,Other
+lib/common/app_color.dart,Other
+lib/components/chart/custom_line_chart.dart,Other
+lib/components/report_page/report_transaction.dart,Transaction
+lib/components/report_page/transaction_item.dart,Transaction
+lib/screens/report_page/report_page.dart,Other
+lib/common/{local_storage_key.constant.dart => constant/local_storage_key_constant.dart},Other
+lib/common/{temp.constant.dart => constant/temp_constant.dart},Other
+lib/{enum/button_theme.dart => common/enum/button_theme_enum.dart},Other
+lib/common/{user_role.enum.dart => enum/user_role_enum.dart},User
+lib/common/{ => styles}/app_color.dart,Other
+lib/common/{ => styles}/app_padding.dart,Other
+lib/common/{ => styles}/app_text_style.dart,Other
+lib/common/{ => styles}/button_theme_data.dart,Other
+lib/components/app_bar_return.dart,Other
+lib/components/{ => common/button}/primary_button.dart,Other
+lib/components/{ => common/button}/secondary_button.dart,Other
+lib/components/{ => common}/chart/custom_bar_chart.dart,Other
+lib/components/{ => common}/circle_network_image.dart,Other
+lib/components/{ => common}/divider_with_text.dart,Other
+lib/components/{ => common}/heading.dart,Other
+lib/components/{ => common}/round_text_field.dart,Other
+lib/components/{ => common}/text_align.dart,Other
+lib/{pages => components/user}/user_card.dart,User
+lib/{layouts => form}/login_form.dart,Other
+lib/{layouts => form}/signup_form.dart,User
+lib/{layouts => form}/update_password_form.dart,Other
+lib/{layouts => form}/update_user_form.dart,User
+lib/models/user.model.dart,User
+lib/screens/{ => home}/home_admin_page.dart,Other
+lib/screens/{ => home}/home_page.dart,Other
+lib/{layouts => screens}/main_page_layout.dart,Other
+lib/{pages => screens/user_list}/user_list_page.dart,User
+lib/components/chart/custom_bar_chart.dart,Other
+lib/screens/HomePage.dart,Other
+lib/screens/{ => authentication}/input_pin_page.dart,Other
+lib/screens/{ => authentication}/sign_in_page.dart,Other
+lib/screens/{ => authentication}/sign_up_page.dart,Other
+lib/components/round_text_field.dart,Other
+assets/img/app_logo_short_dark.svg,Assets
+assets/img/app_logo_short_light.svg,Assets
+lib/common/app_padding.dart,Other
+lib/common/app_text_style.dart,Other
+lib/common/temp.constant.dart,Other
+lib/components/circle_network_image.dart,Other
+lib/{screens/more_menu => components/more_page}/more_setting_widget.dart,Other
+lib/pages/user_card.dart,User
+lib/pages/user_list_page.dart,User
+lib/screens/more_menu/more_challenge_widget.dart,FinancialChallenge
+lib/screens/more_menu/more_user_box_widget.dart,User
+lib/screens/sign_in_page.dart,Other
+lib/screens/sign_up_page.dart,Other
+lib/screens/user_profile/build_info_template.dart,User
+lib/screens/user_profile/update_user_widget.dart,User
+android/app/src/main/res/drawable-hdpi/android12splash.png,Assets
+android/app/src/main/res/drawable-hdpi/splash.png,Assets
+android/app/src/main/res/drawable-mdpi/android12splash.png,Assets
+android/app/src/main/res/drawable-mdpi/splash.png,Assets
+android/app/src/main/res/drawable-night-hdpi/android12splash.png,Assets
+android/app/src/main/res/drawable-night-mdpi/android12splash.png,Assets
+android/app/src/main/res/drawable-night-xhdpi/android12splash.png,Assets
+android/app/src/main/res/drawable-night-xxhdpi/android12splash.png,Assets
+android/app/src/main/res/drawable-night-xxxhdpi/android12splash.png,Assets
+android/app/src/main/res/drawable-v21/background.png,Assets
+android/app/src/main/res/drawable-v21/launch_background.xml,Assets
+android/app/src/main/res/drawable-xhdpi/android12splash.png,Assets
+android/app/src/main/res/drawable-xhdpi/splash.png,Assets
+android/app/src/main/res/drawable-xxhdpi/android12splash.png,Assets
+android/app/src/main/res/drawable-xxhdpi/splash.png,Assets
+android/app/src/main/res/drawable-xxxhdpi/android12splash.png,Assets
+android/app/src/main/res/drawable-xxxhdpi/splash.png,Assets
+android/app/src/main/res/drawable/background.png,Assets
+android/app/src/main/res/drawable/launch_background.xml,Assets
+android/app/src/main/res/values-night-v31/styles.xml,Assets
+android/app/src/main/res/values-night/styles.xml,Assets
+android/app/src/main/res/values-v31/styles.xml,Assets
+android/app/src/main/res/values/styles.xml,Assets
+ios/Runner/Base.lproj/LaunchScreen.storyboard,Other
+lib/common/user_role.enum.dart,User
+lib/services/utils/logger_service.dart,Other
+assets/img/app_logo_dark.png,Assets
+assets/img/app_logo_dark.svg,Assets
+assets/img/app_logo_light.png,Assets
+assets/img/app_logo_light.svg,Assets
+assets/img/splash_light.png,Assets
+devtools_options.yaml,Other
+lib/common/local_storage_key.constant.dart,Other
+lib/common/user_role.constant.dart,User
+web/index.html,Other
+web/splash/img/dark-1x.png,Assets
+web/splash/img/dark-2x.png,Assets
+web/splash/img/dark-3x.png,Assets
+web/splash/img/dark-4x.png,Assets
+web/splash/img/light-1x.png,Assets
+web/splash/img/light-2x.png,Assets
+web/splash/img/light-3x.png,Assets
+web/splash/img/light-4x.png,Assets
+lib/screens/input_pin_page.dart,Other
+ios/Flutter/Debug.xcconfig,Other
+ios/Flutter/Release.xcconfig,Other
+ios/Podfile,Other
+macos/Flutter/Flutter-Debug.xcconfig,Other
+macos/Flutter/Flutter-Release.xcconfig,Other
+macos/Podfile,Other
+assets/img/error.svg,Assets
+.example.env,Other
+lib/components/heading.dart,Other
+lib/pages/user_list.dart,User
+lib/screens/user_profile/{user_profile.dart => user_profile_page.dart},User
+lib/screens/user_profile/user_profile.dart,User
+lib/screens/user_profile/{build_info.dart => build_info_template.dart},User
+lib/screens/more_menu/more_setting_widget.dart,Other
+lib/components/secondary_button.dart,Other
+lib/screens/more_menu/more.dart,Other
+lib/screens/more_menu/{more_setting.dart => more_setting_widget.dart},Other
+lib/screens/user_profile/build_info.dart,User
+lib/screens/more_menu/more_setting.dart,Other
+lib/components/divider_with_text.dart,Other
+lib/components/primary_button.dart,Other
+lib/components/text_align.dart,Other
+lib/enum/button_theme.dart,Other
+lib/screens/more.dart,Other
+lib/common/button_theme_data.dart,Other
+lib/components/SecondaryButton.dart,Other
+lib/screens/SignUpPage.dart,User
+assets/fonts/Montserrat/Montserrat-Black.ttf,Assets
+assets/fonts/Montserrat/Montserrat-BlackItalic.ttf,Assets
+assets/fonts/Montserrat/Montserrat-Bold.ttf,Assets
+assets/fonts/Montserrat/Montserrat-BoldItalic.ttf,Assets
+assets/fonts/Montserrat/Montserrat-ExtraBold.ttf,Assets
+assets/fonts/Montserrat/Montserrat-ExtraBoldItalic.ttf,Assets
+assets/fonts/Montserrat/Montserrat-ExtraLight.ttf,Assets
+assets/fonts/Montserrat/Montserrat-ExtraLightItalic.ttf,Assets
+assets/fonts/Montserrat/Montserrat-Italic.ttf,Assets
+assets/fonts/Montserrat/Montserrat-Light.ttf,Assets
+assets/fonts/Montserrat/Montserrat-LightItalic.ttf,Assets
+assets/fonts/Montserrat/Montserrat-Medium.ttf,Assets
+assets/fonts/Montserrat/Montserrat-MediumItalic.ttf,Assets
+assets/fonts/Montserrat/Montserrat-Regular.ttf,Assets
+assets/fonts/Montserrat/Montserrat-SemiBold.ttf,Assets
+assets/fonts/Montserrat/Montserrat-SemiBoldItalic.ttf,Assets
+assets/fonts/Montserrat/Montserrat-Thin.ttf,Assets
+assets/fonts/Montserrat/Montserrat-ThinItalic.ttf,Assets
+lib/{utils/AppTextStyle.dart => common/app_text_style.dart},Other
+lib/components/CustomButton.dart,Other
+lib/components/CustomInputField.dart,Other
+lib/components/CustomTextField.dart,Other
+lib/screens/SignInPage.dart,User
+lib/utils/AppColor.dart,Other
+lib/utils/AppTextStyle.dart,Other
+analysis_options.yaml,Other
+android/.gitignore,Other
+android/app/src/debug/AndroidManifest.xml,Other
+android/app/src/profile/AndroidManifest.xml,User
+android/gradle.properties,Other
+android/gradle/wrapper/gradle-wrapper.properties,Other
+android/settings.gradle,Other
+ios/.gitignore,Other
+ios/Flutter/AppFrameworkInfo.plist,Other
+ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata,Other
+ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist,Other
+ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings,Other
+ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist,Other
+ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings,Other
+ios/Runner/AppDelegate.swift,Other
+ios/Runner/Base.lproj/Main.storyboard,Other
+ios/Runner/Runner-Bridging-Header.h,Other
+ios/RunnerTests/RunnerTests.swift,Other
+macos/.gitignore,Other
+macos/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist,Other
+macos/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme,Other
+macos/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist,Other
+macos/Runner/AppDelegate.swift,Other
+macos/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json,Assets
+macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_1024.png,Assets
+macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_128.png,Assets
+macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_16.png,Assets
+macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_256.png,Assets
+macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_32.png,Assets
+macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_512.png,Assets
+macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_64.png,Assets
+macos/Runner/Base.lproj/MainMenu.xib,Other
+macos/Runner/Configs/Debug.xcconfig,Other
+macos/Runner/Configs/Release.xcconfig,Other
+macos/Runner/Configs/Warnings.xcconfig,Other
+macos/Runner/DebugProfile.entitlements,User
+macos/Runner/MainFlutterWindow.swift,Other
+macos/Runner/Release.entitlements,Other
+macos/RunnerTests/RunnerTests.swift,Other
+web/favicon.png,Assets
+web/icons/Icon-192.png,Assets
+web/icons/Icon-512.png,Assets
+web/icons/Icon-maskable-192.png,Assets
+web/icons/Icon-maskable-512.png,Assets
+web/manifest.json,Other
+windows/.gitignore,Other
+windows/CMakeLists.txt,Other
+windows/flutter/CMakeLists.txt,Other
+windows/flutter/generated_plugin_registrant.h,Other
+windows/runner/CMakeLists.txt,Other
+windows/runner/Runner.rc,Other
+windows/runner/flutter_window.cpp,Other
+windows/runner/flutter_window.h,Other
+windows/runner/main.cpp,Other
+windows/runner/resource.h,Assets
+windows/runner/resources/app_icon.ico,Assets
+windows/runner/runner.exe.manifest,Other
+windows/runner/utils.cpp,Other
+windows/runner/utils.h,Other
+windows/runner/win32_window.cpp,Other
+windows/runner/win32_window.h,Other

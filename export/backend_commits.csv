@@ -1,0 +1,312 @@
+commit_id,description,username,date,code_added,code_deleted
+1a254230c7a54528b2505a81bfdf0a2b43d26ad3,done test shared budget module,hakhanhne,2024-09-18 15:16:44 +0700,1596,41
+1b4029a1c7fab620c3dd1dfde51d9a4ed3c210b6,fix bug,hakhanhne,2024-09-17 17:18:44 +0700,16,4
+42f713415b4ef76f577ca63468c41b57247bc8e5,done test groupSaving module,hakhanhne,2024-09-17 16:46:20 +0700,344,5
+f30810b052b865eb671efe84353f2c2049a9d157,done test group contribution,hakhanhne,2024-09-17 13:47:10 +0700,211,2
+20e472369e161c22ca73fe99f15467e1638830e8,done test group saving report,hakhanhne,2024-09-17 12:03:32 +0700,180,7
+99d28f22f0a94f815608ada64e4e43325d2c1f2f,done test get group member list,hakhanhne,2024-09-13 13:29:54 +0700,125,18
+0aa3a9d1c91511fb97daa304a58f00cdb6fef502,done test get group list by user,hakhanhne,2024-09-13 13:13:09 +0700,164,7
+3effdba22a20018e030b4a06b564c48c62a10e4f,done test edit group,hakhanhne,2024-09-13 11:17:59 +0700,120,9
+1a36fe0b4d22a9bd9ffbd12624c35bbe1d111aa8,done test remove member,hakhanhne,2024-09-12 18:37:19 +0700,183,0
+2700a0032dfe33d04ea71f97943897cb460ca518,done test delete group,hakhanhne,2024-09-12 17:59:52 +0700,169,4
+d2d4063539d52a39b388f7db15d1e18c01e5fc89,fix: shorten password,Nhung,2024-09-12 08:41:10 +0700,2,2
+bb169dd2a6cfbd93bc197fdf15ce07c883450a5d,test get group info,hakhanhne,2024-09-11 13:02:06 +0700,317,110
+ebaa7f4e849d61a282f505d030522a510d7d18fa,done test create group saving,hakhanhne,2024-09-10 15:41:10 +0700,140,1
+863ac0de375c769ef80e5639b80895d861482346,update test for user & authentication,hakhanhne,2024-09-10 14:10:14 +0700,332,443
+8f1b552d6cc1d1d6e794f3dda230593109367cb1,Recall an invitation from a user,vietanh00,2024-09-10 11:11:58 +0700,65,1
+337b908a21bc0933973985a8b1cd4a70860c1fd4,fix bug test user_detail.test.ts,hakhanhne,2024-09-09 16:50:51 +0700,506,502
+a34bd4aa5e6bbbe91c77bd3d4ee782058ff5ca0f,remove unused import,hakhanhne,2024-09-09 16:41:15 +0700,0,30
+ad153dc38aed3b5a40fd0e04935497e8e2afd958, user + config + lib,hakhanhne,2024-09-09 16:36:07 +0700,466,317
+1866f805faa450fdf6486d9ca671f7cb97366dd9,perf: not update image if image list not change,Nhung,2024-09-06 12:04:25 +0700,8,4
+90aa8074688b1be740fded819d47c63ca831f4b5,fix: handle image null cases,Nhung,2024-09-06 09:30:55 +0700,1,4
+cb63b16173ac73b82042bcd088dffc7868cf6599,feat: combine update image to update transaction:,Nhung,2024-09-06 09:23:43 +0700,48,4
+909aa56401adef0d376211ce7a0313c6c3f3c983,use userId instead of username,vietanh00,2024-09-05 17:49:29 +0700,10,10
+570e307a018edaa608ae5d644b0492a09b59fe5b,add parameters to sort rewards by date and challenge name,vietanh00,2024-09-05 16:26:11 +0700,23,2
+c59603d4587d2e8c65ecd0545d093842c0f9ff9e,show all rewards for this user,vietanh00,2024-09-05 15:23:23 +0700,95,0
+5ed5e82ef2cda173016bee0a496fa272df0fc8f5,perf: remove unecessary consoloe log inside invitationUtils,Nhung,2024-09-05 14:10:12 +0700,0,2
+df1aa9fb1b974ce36056d9e16ddf3f6e3dcea90b,fix: fix membercount not display correct number - SharedBudget invitation card,Nhung,2024-09-05 14:05:46 +0700,40,21
+e9d0f3ef388959abbe3f7166e89c923ba30976f4,Handle: Invitation to users already in group,vietanh00,2024-09-05 10:52:25 +0700,40,7
+0ad44a56a6879caf9da691aebd29d40ea228166a,Fix delete invitation,vietanh00,2024-09-05 10:26:44 +0700,17,2
+48623ec0e6013992863e3fb563f4b47d6f32d5df,perf: optimize performance inside invitation list - add hostFullName to response,Nhung,2024-09-04 18:24:10 +0700,49,68
+c5d34b8d5e8cfb75c07012f6caf0b7d418efca72,fix: fix memberCount inside invitation's group info to be 0,Nhung,2024-09-04 18:10:29 +0700,15,15
+014f0285146c277bd3c4d731782499cd2566b627,Remove verification in checkUser,vietanh00,2024-08-31 00:17:20 +0700,0,4
+6ccd8e397c6bcb7018d57bb724646042230a7791,correct typo: Fullname -> FullName,vietanh00,2024-08-30 20:49:16 +0700,2,2
+4474c14dc3fddeffcc949eb090a053ed4dea41b6,add both income and expense to transaction report,vietanh00,2024-08-30 15:45:10 +0700,16,9
+43529ef369b329340909a1d93a7678c9cc5f62f8,check if user exists or is in (or invited to) group,vietanh00,2024-08-30 12:06:27 +0700,83,0
+70a49221fcce6fb9d36c1e285e79e3a2a755c40f,add invited user full name and username,vietanh00,2024-08-29 22:34:18 +0700,16,2
+aeb96f6ad07b2a8f74e758627b3ece56bed96cc7,"Revert ""invitation byUser+admin: add search by full name""",vietanh00,2024-08-29 22:03:18 +0700,15,32
+0f89f39a5775fc230ff297685435428a960c7fca,invitation byUser+admin: add search by full name,vietanh00,2024-08-29 21:49:34 +0700,32,15
+3d315c43ce1b7e56d9f8062d7a842e86828c389f,fix adding reward+point to view user,vietanh00,2024-08-29 20:13:24 +0700,2,0
+2f4b0113b86e5d46aa65b7660d2b7ada0705862a,view user: add points + tymeReward; remove group report transaction limit,vietanh00,2024-08-29 19:58:16 +0700,3,4
+1fc9ebb38100a7d31fbc49fe877eff2c751b95df,show checkpoint sorted by name,vietanh00,2024-08-29 15:11:01 +0700,6,1
+f7ad3004b7fba478c6bd450ded3b0a69067d46fd,"unify createdBy=id, add createdByFullName, search challenge creator full name",vietanh00,2024-08-29 14:40:59 +0700,21,12
+34cef8b79be0088e18859ffd70d41a710000669b,"search by host name, group show member points",vietanh00,2024-08-29 13:54:03 +0700,19,7
+d48e9ac25c3ef115ad0ba3c71c4a395527a8d54b,add fullname and id to challenge details,vietanh00,2024-08-29 11:51:54 +0700,2,1
+0743e4353a80937812cf286693b09f07521b6fb1,add fullname + id to group/info,vietanh00,2024-08-29 11:17:27 +0700,5,3
+59be6793baebc62895bb6dc77343baccd4f0d7a9,add transaction data for demo,vietanh00,2024-08-28 23:15:04 +0700,151,127
+1a2022ff6713580335b4dbdc1851c38904f3df0f,fix: fix exception thrown when navigating to group info - closed group,Nhung,2024-08-28 20:49:06 +0700,18,18
+a74260bde700d8c45a23b7cbaf3633384c6addc8,group.info shows full name and not hostedBy id; user reward data,vietanh00,2024-08-28 19:51:47 +0700,80,40
+a6fbdc11c66b4926465b52282a146df31891129e,transaction by group host -> auto Approved,vietanh00,2024-08-28 14:00:50 +0700,13,2
+4de87a1751bea96121782fbdf68b778e3265c4f8,challenge.byId add createdBy full name,vietanh00,2024-08-28 10:59:48 +0700,24,0
+9232c813bc4df498ee32f719611b2c5126a5ec6d,challenge.byId: add progress info to member list,vietanh00,2024-08-28 10:53:24 +0700,44,2
+3fcc4220fa13dc255a1301c5a10b7a43094aeb2e,fix: fix overwrite bug in invitationUtils - summary group not displayed,Nhung,2024-08-27 11:59:43 +0700,246,143
+47e2ed8b8826f4aba56bd675c58a8f8625246c17,fix: fix search users for invitation,Nhung,2024-08-27 09:48:11 +0700,6,4
+ac0719133719f29ceee7b0dc944d1dac054e0467,feat: convert IPN url to env,Nhung,2024-08-26 22:28:46 +0700,1,1
+f075a499d1094bbe42c4f0f33a2d7a58df6cf6b2,feat: add isMomo attribute to transaction,Matsuri,2024-08-26 22:25:59 +0700,4,1
+5b5eef4b5edbd315493aacf61327df91d1925e6f,feat: add momo ipn,Nhung,2024-08-26 21:18:27 +0700,105,4
+6a1843801b287bd828a63f35a5ae9642b73b5348,turn off pagination in challenge pages,vietanh00,2024-08-25 21:52:33 +0700,6,6
+2e6cd91652465607245f841badc9e2fab8d601e4,fix attempt: wrong transaction date,vietanh00,2024-08-25 20:28:30 +0700,305,299
+a3168c0712cfcb4757aad1c7b1759237eb064c3b,search user with empty query,vietanh00,2024-08-25 11:23:55 +0700,12,4
+be65f8d6fe1cb8c7ee8c49fc93358efab1a7c509,challenge.byUser: dont show from some groups,vietanh00,2024-08-24 17:30:06 +0700,124,73
+be453585dd834db9800bcdfef704077a9c2629a9,group transaction: show all - not just Approved,vietanh00,2024-08-23 15:39:21 +0700,2,2
+23a9d2c55e7869b234ad6c0eaf22c4a0724728dd,UPDATE budget.concurrentAmount: remaining instead of total spent,vietanh00,2024-08-23 14:30:41 +0700,30,30
+106108476bb6f158eeef0d0a0351eef14aad474c,all group.endDate to be future dates,vietanh00,2024-08-23 14:07:19 +0700,59,59
+99cefba8591e799eeb9fa7caebda5c938830a615,fix: fix return URL,Matsuri,2024-08-23 13:29:52 +0700,1,1
+98c5177b939dca4547b0d6ff3f507e5f03ad932b,fix default sort option: challenge admin and by groups,vietanh00,2024-08-23 10:16:01 +0700,9,3
+198381e2f1562a1d37003d215dd5f3eca21dce0f,transaction.byUser: fix default sort,vietanh00,2024-08-23 10:13:39 +0700,3,2
+6f8d8ad02091151bc05e9ac9eaeabb3f57e9cfa5,update: update momo transaction,Nhung,2024-08-22 16:39:32 +0700,16,1
+e097002b9911ec27478021b640c09257b83e3713,enforce: max 5 challenge checkpoints,vietanh00,2024-08-22 15:07:05 +0700,4,0
+6f767baa155da3bd6149d7cc64dc0108b26f17f0,accepting invitations to 1 group,vietanh00,2024-08-22 14:58:49 +0700,9,6
+a912b25ae02a2f1bd29902e1c657d4a0bc9dd8fb,Update checkpoint check,vietanh00,2024-08-22 14:30:20 +0700,17,12
+9fc8983f1a465a8ba70324af4359cbef59dcecb8,challenge By id: unwind group,vietanh00,2024-08-21 16:04:25 +0700,14,2
+710f729075edb76802779290556e5530d1f2baba,fix groupName for both SB and GS,vietanh00,2024-08-21 16:01:59 +0700,8,24
+f05097e423f4c1bfa51c9209cc38281ad8b607cf,add groupName to challenge by id,vietanh00,2024-08-21 15:26:53 +0700,61,45
+70555301ef689099ac7dea7763ecb708b8bc1bfd,Make viewUserById consistent with db,vietanh00,2024-08-21 12:05:04 +0700,29,7
+088cc82150871f71766de2dae101639f5da38e2f,enforce transaction.amount to int,vietanh00,2024-08-21 11:41:11 +0700,3,1
+1e8c6ec184e750a86e48b348c915e36007625ca5,"add groupname, reachedMilestone to challenge",vietanh00,2024-08-21 11:15:32 +0700,81,38
+6f44a663135d0e6c8264c044c47be9a087210ff7,fix bug check deletable for group saving & shared budget,hakhanhne,2024-08-20 15:21:12 +0700,10,17
+61a918cfdaa201d5bbf97843caceced59b8df0f4,fix response,hakhanhne,2024-08-20 14:27:54 +0700,18,18
+1871c3c1c577768cd9592637348e958c50007a9b,fix: fix deploy:,Nhung,2024-08-20 12:17:59 +0700,147,250
+fb80c682c1842402cd8bcb1892225b3ae08f2fd2,fix challenge.byUser sorting; to implement accept invitation,vietanh00,2024-08-19 17:37:36 +0700,68,11
+8e27a66d005acb080d9a01561596d06c44cdd074,add upload transactionImages + update post invitation (users: array),hakhanhne,2024-08-19 13:26:22 +0700,123,39
+4f83fd6adfcd895f3bc48051f7347e24d35e384d,improve group report query speed,vietanh00,2024-08-16 17:47:54 +0700,6,17
+0335735da752c10f5b04e09fa9ded0002e1835fb,report totalAmount as double,vietanh00,2024-08-16 17:40:19 +0700,16,2
+c3eb7296e702b9c4a811c9c891b87e1b187ea36b,remove pagination in group.byUser,vietanh00,2024-08-16 17:18:25 +0700,4,4
+e9020bca4f35f8027c33df9c09298162cc5e60e7,show if group expired/closed; add  to group report,vietanh00,2024-08-16 17:12:36 +0700,31,4
+c04e0f3d025cdb2e9f2ede8ab0f777c23337fba9,ApproveStatuses: capitalize to conform w standards,vietanh00,2024-08-16 16:13:21 +0700,9,9
+d542414042fdbbed749a8a5ea9872694e14f0f5b,Show closed & expired groups by default,vietanh00,2024-08-16 14:47:38 +0700,12,9
+ed638d5c2ed2b56dda824101f5034545350553ee,isClosed: cannot make transaction to closed or expired groups,vietanh00,2024-08-16 14:24:46 +0700,62,4
+49833805bccf66cf72679b0bcb0ab7c9f7f2dc5c,isClosed for host to manually close groups,vietanh00,2024-08-16 13:58:12 +0700,94,80
+cca86cdf1505de58f36f0a01b43753c039abaeef,turn off isClosed for testing,vietanh00,2024-08-16 11:55:47 +0700,2,2
+7bb9389e425a7ac9e676098e41ea3d25f8c1b886,fix time bug when creating groups,vietanh00,2024-08-16 11:50:59 +0700,32,8
+02e1643461e251537413d113558283f9c1ff526c,group report; isClosed to be implemented,vietanh00,2024-08-15 02:48:06 +0700,346,28
+cf1cf120ea55d1b13bb695b8dfb1ae5aad9a55d8,Update/Delete transaction -> challenge,vietanh00,2024-08-15 01:03:36 +0700,130,32
+caeeb183b2d3d43c4944b65eee5a1f47b22b6a37,update challenge+user after new transaction,vietanh00,2024-08-14 18:35:50 +0700,467,396
+e2fe0f8bed830def12d7d3eb78ce73d274536b68,fix: fix build bug,Nhung,2024-08-14 16:27:52 +0700,0,2
+e82db6e277b32f19ef240d720cecdaae99852ffe,reading transactionImages creates array with empty [0],vietanh00,2024-08-13 10:39:58 +0700,2,0
+118b108e9bf5103efe608abb21c5ca27f4ead455,fix typo,vietanh00,2024-08-13 10:08:19 +0700,3,3
+cbc5dde6f402e21a2d2958043e18905c0e6588f3,fix bugs with update/revert amount in groups,vietanh00,2024-08-11 15:07:21 +0700,18,11
+8dcbf14e7aca2d3194e7993bb09314cfdc965d72,Add Pending to available approveStatus,vietanh00,2024-08-11 14:37:32 +0700,143,136
+78de2d773e6f2b5a38aa7d8a034915edbe21a30e,fix: fix invitation error,Nhung,2024-08-11 01:56:14 +0800,214,113
+cdcac24f4aea8b9ef182a7ed6c6ad5b390f6bd91,Let admin approve or decline transaction,vietanh00,2024-08-09 19:17:58 +0700,14,11
+299ae6d9f765c53f06140e57f95851a6af1520af,data script: fix cases of transactions without status,vietanh00,2024-08-08 23:42:05 +0700,3,0
+287a95b56f5016892adc5485fb27c9eaab1f0119,data: transactions not in group -> no status,vietanh00,2024-08-08 23:36:43 +0700,123,123
+300ad384b7f40f67169fa1309cb0ca7142ae9b4b,data with approveStatus; fix bug with declining,vietanh00,2024-08-08 23:23:19 +0700,484,468
+297a52a081623634f8737deb1a7a8b7e64318dbc,status authorization + decline,vietanh00,2024-08-08 21:44:38 +0700,137,32
+f9d6225a59ef74de425abba9814527062fa0cba6,group host to approve transaction status,vietanh00,2024-08-08 21:22:30 +0700,115,9
+f07325665b523ef3732ac66f5cefdab3e5b14815,"groups: long description to test ""show more""",vietanh00,2024-08-08 17:57:06 +0700,59,59
+62e18d8f5cf0e0010071a9768dc185abc33b5e38,group transaction: byThisUser,vietanh00,2024-08-08 17:28:33 +0700,20,0
+50fc6452ef4eb9719149a913afb99cd795134f80,naming mismatch: startDate -> createdDate,vietanh00,2024-08-08 17:09:49 +0700,2,2
+e8c1bbc408d205d1fa9a6689cdfce36a3bebf113,wrap group creation time in localDate,vietanh00,2024-08-08 17:05:13 +0700,7,5
+793bba8d1c61ff86f511b3cf7f2b2301acd986b8,description data; update/delete transaction changes groups,vietanh00,2024-08-08 00:41:57 +0700,483,254
+5e8c9853ae174aecdea9ef8631e986e34e738e6c,challenge.isPublished,vietanh00,2024-08-07 14:28:38 +0700,127,68
+b95b83c64334b87e8ff310594d152e496f6976c3,view challenges for a group,vietanh00,2024-08-06 05:49:55 +0700,164,0
+364a90231957ea7ad28dad651a2770af56a5963d,fix data group amount for testing,vietanh00,2024-08-05 21:26:41 +0700,56,56
+7195944457c30b7edfd576ff5043b630c7182f8b,transaction data: budget -> Expense,vietanh00,2024-08-05 17:50:46 +0700,101,101
+fe39c5cb3b1e807184584f3468dc46ceb486cd61,Show fullname INSTEAD of user ID,vietanh00,2024-08-05 17:29:36 +0700,2,2
+c317be35815c3018fb89f1a9529169040128fe1e,challenge list: add createdBy_fullname,vietanh00,2024-08-05 17:27:17 +0700,34,2
+40488840eb1d95c196ff870233cef4050079befb,challenge list: default sort,vietanh00,2024-08-05 16:51:06 +0700,2,0
+a21c18b8f93121d9d6dbd0b6d45c151955a0ae83,user joins group -> auto joins challenges,vietanh00,2024-08-05 14:42:02 +0700,84,3
+44a27746a61b403ca8a64b22a8b181f66d0ffd2c,fix: checkpoint by ID missing date,vietanh00,2024-08-03 21:31:09 +0700,0,8
+9613168860efeb182ed83c53ac0b286b5edd7227,response: list -> object,vietanh00,2024-08-03 21:26:30 +0700,1,1
+8196b63009050899c42daf5806eea1a859766c23,reward details to checkpoint by ID,vietanh00,2024-08-03 21:14:59 +0700,31,4
+fec46131b4a2a788903fdf872171e52df4f7d164,"Revert ""add reward details to get checkpoint by Id""",vietanh00,2024-08-03 21:13:36 +0700,4,31
+dbbdb1b598f386d79506a8454b5aa6d264f5157b,add reward details to get checkpoint by Id,vietanh00,2024-08-03 21:13:01 +0700,31,4
+dc99beb69accd2e3c55c69a596f81f77d75e38ae,add authentication to payment route,hakhanhne,2024-08-02 18:15:01 +0700,11,45
+43046fb87d219c04a5497ac18edefed6cf207f28,TODO: use momo test account to test payment,hakhanhne,2024-08-02 18:01:45 +0700,36,10
+84ed74d0816ec52a146d2eec62f4bc80d4e4cd7e,try momo integration,hakhanhne,2024-08-02 13:55:55 +0700,140,0
+a1965c4d554940c49e975940015841b648c88956,fix naming mismatch,vietanh00,2024-08-01 18:11:38 +0700,2,2
+0f17127f6b6c647501566d7eb6b15ff4ef7c8a70,fix challenge byUser and admin,vietanh00,2024-08-01 17:44:37 +0700,93,10
+6e51709696f702ad76308103ec78406a0a55cc92,"fix Transaction data, mongodb session, challenge typo",vietanh00,2024-08-01 16:47:10 +0700,200,120
+dd9bb79cc926d09584b506dfb95eba8faa991a09,fix: fix bug in sending invitation,Nhung,2024-08-01 13:59:33 +0700,97,70
+bbec8e7044f03ac44d804111984c6a2fded9ea07,ops: backup for member list sorting,Nhung,2024-08-01 01:15:18 +0700,42,2
+aceff208bb5420345dfa088b45a66b91584d4ff1,fix: fix update bug when updating group,Nhung,2024-08-01 01:14:18 +0700,61,4
+a4f85346f1d77543ecaea7e8bb2b7233a7c77746,fix delete challenge,hakhanhne,2024-07-30 17:00:23 +0700,56,23
+46660a7b5008d6dbd11c542ad32e3bcd69f3a306,Fix Challenge export from models,vietanh00,2024-07-30 16:21:00 +0700,9,11
+ec727388064da81e3bb49a402ef02b0183cbc33e,Data + Script for Challenge,vietanh00,2024-07-29 18:49:45 +0700,912,5
+9340b89cabe5b5bde299938536becd1af7773641,done delete checkpoint + fix bug,hakhanhne,2024-07-26 14:55:53 +0700,40,43
+7245a26e9ffec1eb550b1dd412c823ec6b13a3f6,TODO: test delete checkpoint + delete financiale challenge,hakhanhne,2024-07-25 18:23:24 +0700,78,10
+b096354bd642ad6e006caeffbd922680cb5e894a,completing challenge + checkpoint + reward + add pagination,hakhanhne,2024-07-25 15:16:20 +0700,437,50
+1f2cb1a5b07d669d72e210edc2cf3be263759a2a,completing challenge + checkppoint + reward,hakhanhne,2024-07-24 14:46:56 +0700,227,91
+bb821b629fecdf61df03e36afe6bb2c5e67692df,work in progress,hakhanhne,2024-07-22 12:32:37 +0700,381,135
+b3e318214993e1b18066708c402bc5819db0b160,option to quickly switch between format,vietanh00,2024-07-21 16:50:07 +0700,84,48
+6e512b328568dcaba593cc66746f50206a7a630d,reusable function to fetch transaction,vietanh00,2024-07-21 16:43:59 +0700,245,294
+15db1403b532bac18540fcb0bb4c0db05b7bbedc,transaction byUser and admin: fix sort,vietanh00,2024-07-21 00:06:31 +0700,262,388
+852f3e92b1549d176523c0b1963d0bd43c9763c0,fix: fix user's group savings to be empty,Nhung,2024-07-20 17:13:59 +0700,3,1
+c147eddcf462258c0d0c19f25a463d6a91856ddb,data: fix issues w invitation and participation,vietanh00,2024-07-19 03:20:58 +0700,304,808
+30d24def7aeb2ca042f40fb7c4c7efeefd9b8fb9,fix: fix displaying wrong field when search userr,Nhung,2024-07-18 13:52:57 +0700,2,2
+61c1b7f6bbf7b767ec1fb194aaf24119e5bb56a9,fix query group saving,hakhanhne,2024-07-18 13:52:12 +0700,5,5
+4582dbb4ede58a0b77eb509f843cef3360874f9f,in progress: financial challenge + reward,hakhanhne,2024-07-18 13:51:15 +0700,351,28
+542c835625d9a7b3f670044013037173d6d799f5,correct data since generation,vietanh00,2024-07-18 03:45:51 +0700,47,48
+1c1643f992e497b560143566b3cfd0f6de303796,fix bug group saving + tested,hakhanhne,2024-07-16 10:10:52 +0700,47,31
+f03b378e6da244a578111f327d69b4656662634c,search users when inside group,vietanh00,2024-07-15 06:12:34 +0700,125,25
+38140e49b4d5f97af1c98b44e76b45421c4b94fa,user points + tyme reward + points after create transaction,hakhanhne,2024-07-11 15:55:55 +0700,82,10
+6877f498073b314df93226ac34b033e99be9afdd,model financial challenge + reward,hakhanhne,2024-07-11 15:27:55 +0700,83,0
+ce69b23a81a1d6de1be50d64e2a5c2a383603fb0,"feat: add search user by name, username, and email starts with + search user who are not in group",Nhung,2024-07-11 14:40:45 +0700,79,42
+9d8b3834d83848bb78fe5931b5a98603062cc73b,comment out messaging,hakhanhne,2024-07-11 13:03:19 +0700,17,719
+150615aec3cf99ef7d2a23092814eb596b77b5e7,comment out messaging,hakhanhne,2024-07-11 13:00:51 +0700,2,8
+602b5abea28767ac569bd8ee0a06b9b6f3921d5b,fix logic sharedbudget concurrentAmount,hakhanhne,2024-07-11 12:48:58 +0700,1,1
+0fc2ed7aaaf96fa318ad6ff3d7d176a001f6dda5,try send firebasee message,hakhanhne,2024-07-11 12:41:26 +0700,819,11
+ffa696c860f5ab23bb1b19a57af0133cbc0514df,accept; add Groupsaving and Participation to db,vietanh00,2024-07-09 22:07:36 +0700,720,589
+867c6c11216536ce62850d030853233c0f40db3f,feat: add display avatar to member list,Nhung,2024-07-08 18:35:10 +0700,1,1
+c08c3a14d05234b7b71f835068af53bf65a419af,add change balance after transaction (if associate with a group),hakhanhne,2024-07-08 15:00:41 +0700,76,1
+e79aa57a54f596f390eebffe7ac360948e19fe1b,feat: add necessary field to view summary user,Nhung,2024-07-08 14:19:34 +0700,4,2
+c8096b46512d2912bca94c32b7a8fe3e1aa043a5,feat: add display error message for debugging,Nhung,2024-07-08 14:10:48 +0700,2,2
+98d234dee0887ce282184e0e10198efc29a0b3f3,fix: fix duplicating error display,Nhung,2024-07-08 10:24:48 +0700,2,1
+729471aaa067e7097fddc85ce72c6d56b165f06d,fix: fix duplicating error display,Nhung,2024-07-08 10:19:29 +0700,1,2
+49dd8f61b77569353bce4571f660804122a2bbd5,feat: add handling error duplicate key in update user by username,Nhung,2024-07-06 11:38:16 +0700,14,1
+f0b25521720422763f5fdd1ad2a28fe90c275ed1,done group saving,hakhanhne,2024-07-05 15:34:22 +0700,782,1
+dbaf9aa540db32399c7d32c78d90fb4c2368d28a,done update avatar,hakhanhne,2024-07-05 13:28:11 +0700,53,2
+7c21b8f78b756db00d1366cb2eba21d831396f7e,get transactions in group,hakhanhne,2024-07-04 14:47:30 +0700,1,2
+1d0d08d9672e35e4f43a64fbf6a487f550411986,add comments,hakhanhne,2024-07-04 14:30:29 +0700,3,3
+51f32a3b911feca19b8cca2fda43462e318ef809,transaction history in budget group,hakhanhne,2024-07-04 14:28:27 +0700,119,109
+92f2a3ae248fa75634d771a1ec566937b9612304,feat: add find by username to summary user,Nhung,2024-07-04 13:34:11 +0700,1,1
+c2dba36ee29e9e1695b6c23a93de8ccfa837ce5e,feat: add find by username to summary user,Nhung,2024-07-04 12:59:33 +0700,42,0
+669cd3cd93eb395eebe72004079eee1b977fe53e,feat: add _id to summary user,Nhung,2024-07-04 12:52:27 +0700,1,0
+2983f2c3095a53fce2229c928ad7ac9f54bc5d94,show all userinvitations in all cases,vietanh00,2024-07-04 10:00:27 +0700,4,3
+a6bfc80c4a73dee20609989fd3bbc9c3000376b3,viewUserFromId: divide totalIncome and totalExpense,vietanh00,2024-07-03 23:43:06 +0700,13,4
+5c1fcae1ae8d7051961e7c3722bc3986ec302402,"view Budget from Id, view User from Id",vietanh00,2024-07-03 23:37:10 +0700,95,1
+e287c4e5c2a084e098fcb5d3e2724ae25ce85500,conform with FE: Transaction.category list,vietanh00,2024-07-03 20:40:52 +0700,4,5
+348814d05cac0697edee16dcaa295fdc47a994f5,objectId references other collection,vietanh00,2024-07-03 15:29:19 +0700,24,6
+e6a40258737c362d043c2f767c3a44df01fbfb9b,route to get contribution in sharedbudget,hakhanhne,2024-07-03 15:14:43 +0700,119,7
+328167303a6528ed6d2a3750aaf7bb4615241ba6,"fix bug: transaction savingGroupId, budgetGroupId",vietanh00,2024-07-03 14:48:25 +0700,2,2
+72a7a9f976fc1320f9e51a471c9cafc3b3c3b91e,add SB and participation data to DB,vietanh00,2024-07-03 14:30:02 +0700,866,0
+d560c9510bd805e6d18bb2963f9d6d98a67255e9,fix: fix not display correct user by id,Nhung,2024-07-02 23:55:04 +0700,1,1
+a6ad8cddedead231304c7895f2d5c69cc280ac07,fix bug,hakhanhne,2024-07-02 14:04:10 +0700,1,1
+9c8d16ee155912bd0a8b5c6f9a4ff3852ba558ee,for FE: transactionType + Amount/Date,vietanh00,2024-07-02 10:31:13 +0700,70,14
+e69ea1364769faea27169b4c7c588665f12a9008,done + tested integrate invitation + shared budget,hakhanhne,2024-06-27 12:38:58 +0700,8,0
+d91348fe4d65bb14ae548463e1acf18d71966da1,fix bug,hakhanhne,2024-06-26 15:33:03 +0700,30,22
+99cfa0deb2c972f68d7f9836623e5e7ee3b4e81c,invitation: byUser + admin,vietanh00,2024-06-26 12:09:50 +0700,152,54
+f7f175f1eabe02dbc68d7a79dec9936e3b9fd7bb,fix bug + add filter for get shared budget,hakhanhne,2024-06-25 12:57:39 +0700,221,116
+687273ba6fc71b84848304f889d930d3972a9666,fix bug + check deletable budgetgroup,hakhanhne,2024-06-23 18:16:43 +0700,40,6
+0b501ac24d696d0d2ac8417dc27a7537826503f1,add api call & resuable functions,hakhanhne,2024-06-21 14:56:09 +0700,269,203
+690160cfdf3b391c8ba7b2d0bdaafd4bfbce25ef,handle date in transactions,vietanh00,2024-06-20 18:07:31 +0700,32,26
+2ae6b3e26a77d802942667b44893d3a5f9091f9d,fix date: transaction byUser + admin,vietanh00,2024-06-20 17:14:35 +0700,24,22
+51ed999f6aa69f16709d8fa9c290808825357b5f,fix date: transaction create & byUser,vietanh00,2024-06-20 17:04:37 +0700,11,10
+87d379dbd6f1bf0fe090b51f0934511b2d878cc6,fix dates for report,vietanh00,2024-06-20 16:55:44 +0700,22,21
+b18dfc33b8536e200bd111359534d787d614fe97,fix past month total,vietanh00,2024-06-20 16:39:27 +0700,1,1
+a62f7b6e94241b6385495eae110e21fae9baf4fe,transaction: fetch until end of month,vietanh00,2024-06-20 16:33:17 +0700,53,18
+238272c86be286f1510b1570218d13a96b22551a,crud for shared budget + shared budget participation,hakhanhne,2024-06-20 14:30:07 +0700,291,72
+42f2e8e15ca35343dddc3d5f7606910e4745a467,fix: fix Forbidden when rendering user by id,Matsuri,2024-06-20 13:15:35 +0700,57,1
+ce5e0f23d34936361be28b4e880de7938230739a,"transactions use userId, transactions by date,",vietanh00,2024-06-20 11:07:51 +0700,60,38
+9f8ef7ee5e80a3272e377ea0862bad1c6ef30018,fix: fix deploy bug,Nhung,2024-06-20 09:41:04 +0700,0,4
+110146e2df8528e2f4a69237d78b84563a67b3a7,"accept+cancel invitation, transaction categories enum",vietanh00,2024-06-19 17:59:09 +0700,169,30
+5c5347c0679adb1411ae3d0d98f1ef2867ba6077,view invitations by user,vietanh00,2024-06-18 17:44:02 +0700,19,10
+8df3749b2f4c689d69a00a75067c593943fe1e5d,user invitation data + add to db,vietanh00,2024-06-18 15:59:48 +0700,788,1
+a6df4bf3e0108d34f32e8cdabb659fe7c4df929c,add dynamic for production,vietanh00,2024-06-18 15:28:59 +0700,10,2
+337fd13971b9b8b118b96315f0e1b6fd6187ba13,fix: fix deploy,Nhung,2024-06-18 15:25:26 +0700,744,25
+6b3214c1b5dd1562e54e3ac9c6c0cf0074197a88,update share budget,hakhanhne,2024-06-18 15:21:12 +0700,46,0
+127e5bc42bbee62b63670a7a5d57f3fe8a47a0c1,user update: return updated object,vietanh00,2024-06-18 15:05:19 +0700,2,2
+d012a801969033801ff0feafb705843f41c53d39,user admin: sort role,vietanh00,2024-06-18 14:53:31 +0700,102,10
+508849384b06aa79c826fe9e023696ceaef91eb1,shared budget schema + post route,hakhanhne,2024-06-18 14:43:15 +0700,91,1
+a7a08a27cf743a0e2bffd66078f7a93c09c20efc,CRUD invitation,vietanh00,2024-06-16 11:02:03 +0700,174,178
+3675448a39904b1142e46d4daec298c1609e79bd,init; invitation interface + model + data,vietanh00,2024-06-15 02:26:03 +0700,2474,2742
+f456ae691eac5d312de85b596e663b7565827310,"Revert ""invitation: data + interface + model""",vietanh00,2024-06-15 01:30:50 +0700,5,121
+3d609b866e2d504697076e991f888350929112de,invitation: data + interface + model,vietanh00,2024-06-15 01:30:12 +0700,121,5
+fa37919b9709baeec718106a253dbbfd16e24fd0,"transaction: now with img, group id",vietanh00,2024-06-15 00:40:41 +0700,434,416
+6f8ada292cfd3c98ff5334ef514c120a11e04e3a,user: add creationDate,vietanh00,2024-06-15 00:23:22 +0700,39,38
+32ce460f4d411a60a4eb632a452b6aeaf44e010e,transaction report: oldest months first,vietanh00,2024-06-14 19:22:38 +0700,1,1
+dc1dc83bbdedef6fda1d024f71c3699b7724a3fa,transaction by username,vietanh00,2024-06-14 18:11:59 +0700,13,2
+8d5885ec34404e1bbc3f89c5a5a46e76f393cce2,fix: fix deploying bug due to nextUrl.searchParams: :,Nhung,2024-06-13 21:34:51 +0700,3,1
+28e9c69d3165d37cb8d7743d2aee39a501ee737a,transaction list: for user and for admin,vietanh00,2024-06-13 17:02:41 +0700,311,138
+30fd58626f7c20237e0e73479f90fafb722e0500,admin: getUserId,vietanh00,2024-06-13 10:11:56 +0700,98,48
+dae1ee1e3e4e33776c6d47ffeb2c6265b3c6176f,2 decimal points for Report,vietanh00,2024-06-13 08:55:46 +0700,7,7
+c8bdf39ab6a0891b7811ffa9c7d32cf441ca186f,transactions by user,vietanh00,2024-06-13 08:48:27 +0700,480,246
+bc7bcd456f70253aae0b1dfbd72bdcfe39d5a058,transaction admin view,vietanh00,2024-06-11 22:23:04 +0700,107,13
+23cb92bd05d3c4c675bd7f64d8e606e9fcff4ab6,put data to main db,vietanh00,2024-06-11 17:16:25 +0700,9,7
+29b9751914c7985d196dd96580ac1b28034c7302,transaction object id,vietanh00,2024-06-11 16:58:43 +0700,234,232
+65cebe3105f2feb5a28287dad0441f880256d490,"readCSV not endpoints, user hash",vietanh00,2024-06-11 16:07:34 +0700,746,293
+18c88cfcc32032b7419427fe66ae60e74edbcdb3,fix: fix deploy,Nhung,2024-06-11 13:57:46 +0700,0,6
+2022fa7d0115fdbb521067e060a5408b0d8a7f30,"Revert ""fix: remove src direct""",Matsuri,2024-06-11 13:55:05 +0700,93,92
+9e9505eb4e5d9c09510e024e243cccaa1ecd891e,merged main,hakhanhne,2024-06-11 13:40:35 +0700,0,3
+e611ab50d52a44822bd77072820e2e5b126709aa,optimize upload file,hakhanhne,2024-06-11 13:30:10 +0700,8,22
+4b9985d05a53819118f2f8c14199d7150d708610,done upload file to firebase storage,hakhanhne,2024-06-11 13:18:02 +0700,1244,1424
+b8e771b2ab19f676b681ac66ebef0f53f77d4762,fix: remove src direct,Nhung,2024-06-11 13:15:45 +0700,92,93
+37127e2cf1ef05009bc98fd2f67d7cdae626d0a4,fix: fix deployment,Nhung,2024-06-11 12:15:05 +0700,2,2
+8770b9e4d7da33672e19e7ca6d633bed599b0ebd,fix: fix deployment,Nhung,2024-06-11 12:09:51 +0700,4,13
+6dcdff01c3ec4855a4f541f2e09ef40867820641,fix: fix deployment,Nhung,2024-06-11 12:05:29 +0700,2638,896
+bb57b25a189c52d04db139fe2c21ce86e3f8dae2,fix: fix deployment,Nhung,2024-06-11 11:41:42 +0700,3,2
+ee42fe0f6781d125fc7e75040276e9183b878718,fix: fix deployment,Nhung,2024-06-11 11:24:32 +0700,0,1
+b706354fddcfa1d5651477d449e7dc1a992e2eee,fix: fix reading CSV file - no id and error if having duplicate key like username,Nhung,2024-06-11 10:57:40 +0700,828,278
+557cd7fc269178d38053f231fd5db08b0167cd23,Update route.ts,Giang Trong Duong,2024-06-11 09:52:58 +0700,1,1
+e36a9becaee36b8f447e8a9305c95df391bd62be,net spend for summary,vietanh00,2024-06-10 16:44:20 +0700,113,28
+5520b6ca065d3531b8b560262fb9a7f7b4524e1e,Add userId to queries - Rerun csv please :>,vietanh00,2024-06-10 16:27:11 +0700,252,69
+93898b5b023cc03e3c43a6f453a6a608fa220e6e,finalize output for report,vietanh00,2024-06-10 15:25:31 +0700,37,17
+7c572139bc854bca10477499ca6147b347386dd9,fix return password,vietanh00,2024-06-10 14:44:32 +0700,23,10
+46010275400ee6b331f67904f2298b306b4d530a,Commit,Matsuri,2024-06-10 12:05:41 +0700,239,1267
+820a658ff30290548e74995dfd98d9a17849b2c9,fix token expire in 3 days,hakhanhne,2024-06-10 12:05:28 +0700,1,2
+b63cd36a10f1b51a78d30a3867d2519f45ca8a22,all functions for Summary page,vietanh00,2024-06-09 23:49:48 +0700,297,22
+eb0cf120e42238325de654a88b66028cb04b3e31,function to fetch transactions,vietanh00,2024-06-07 18:21:51 +0700,109,7
+c048519446b4ca19b06321aa4b6ae0007ad8967b,omit password; Transaction csv,vietanh00,2024-06-06 23:18:18 +0700,118,13
+10d302e3098d5baea85eb8fb96ad5b9c1deab904,"Read, Update, Delete Transaction",vietanh00,2024-06-06 10:49:48 +0700,61,0
+b8710fdca7557d14ef206f2911e453e4068c36ab,read transaction,vietanh00,2024-06-06 10:10:32 +0700,8,2
+81cb2bf86f6e7636138e5ae9cbbf506bbd61af96,CREATE transaction,vietanh00,2024-06-06 09:52:20 +0700,85,8
+adb63369890cd031c8c52e36bd8519448de8d443,stop caching next,vietanh00,2024-06-06 09:01:02 +0700,0,1416
+c3bccc357ee3093902a4f063a6e5382659b0876d,init,vietanh00,2024-06-06 08:56:57 +0700,9112,924
+ee1602ecaf3734d19af16d82d2f948028e82609e,Transaction interface + model,vietanh00,2024-06-06 08:40:06 +0700,66,0
+39574c67ed376aafc82aecf4edcec28974c72373,update api/user with csv reading,vietanh00,2024-06-05 21:41:55 +0700,207,53
+4b270ff4ae4b648be3b18f9fb8a047f700d8a635,"update profile path, lib update",vietanh00,2024-06-05 19:38:37 +0700,138,281
+f3c025d1792fa571f0e88dc97b9637c65bad3125,update tests directory,vietanh00,2024-06-05 19:30:17 +0700,911,123
+73d7767f671f147972a2792ba41bef3a13d9128e,done write test for update password + pin -> DONE TESTING USER,hakhanhne,2024-05-23 15:21:23 +0700,318,174
+336d7c03500d36729e77eb5a7c59cabb159f8a65,done test for /user/[username]/update/route.ts,hakhanhne,2024-05-22 00:25:43 +0700,222,177
+741b32f32c793fafbd271b01ea6e623097d34bb6,add token in header + done test for user/[username]/route.ts,hakhanhne,2024-05-21 23:33:50 +0700,397,59
+2a24b42de8ee1768b6380e75d06cc170fad0f536,commit,Matsuri,2024-05-21 15:59:39 +0700,4,1
+ec3af7a8269d8e91dfc5391a3011bd0b5131b542,"data, function, route to read csv file into database",vietanh00,2024-05-21 15:31:32 +0700,80,1
+666ec7df6a1f05aa6667a60b90f4d4e819116508,done test sign in + move update user route.ts to /[username]/update,hakhanhne,2024-05-20 23:54:42 +0700,125,64
+b7f97dc5bf56ce3343fd0d07174ce4ca728b9aa4,fix bug test -> all test passed,hakhanhne,2024-05-20 14:44:09 +0700,35,52
+768e070a8ff9d79785df69e078fefae30e64e8fd,completing testing for user,hakhanhne,2024-05-19 18:41:41 +0700,258,193
+27c83a396f63f0ed65cf932e7367f69755899fe0,add validate pin,hakhanhne,2024-05-18 17:57:14 +0700,16,11
+df44ad6c627790f08b0be0358cf6b3df3e1ac495,update validate username,hakhanhne,2024-05-18 17:53:46 +0700,39,15
+93c68e19eb19426b90e2c34d0b8753e349bd312a,add validate username to signup and update user,hakhanhne,2024-05-18 16:49:34 +0700,14,5
+1479f9a1df10986e2ff9edf95683d5b1464587e1,fix api/user/signup response,hakhanhne,2024-05-18 16:17:07 +0700,2,2
+162b5ff7f7324fd4628a7fa85f60cc9abc1183c8,merge from branch 8 to test,vietanh00,2024-05-18 11:01:36 +0700,755,551
+015c60c70e20c3627edb3b19e078c3b156bc2068,update b3 to resemble b5,vietanh00,2024-05-18 10:56:51 +0700,7691,1086
+09192ff8af1d25cf2f33faea0d2f0731b21208cd,fix: add cors config to ensure flow from frontend,Nhung,2024-05-16 23:34:59 +0700,132,86
+b9ce7387bcb294e0730b117bbf33fb00c850f9a4,feat: add test get user detail,Nhung,2024-05-15 18:23:17 +0700,96,106
+bbfebde847101cdb296b7f603378f1d215c845b8,"feat: add test sample for user, user-detail, validation.ts, connect mongodb, authentication - test coverage >85%",Nhung,2024-05-15 17:40:13 +0700,636,468
+3e5ceaf25d7f49dff7d1006f70cf1ffba6e86a3d,add pin + change password + change pin,hakhanhne,2024-05-15 13:55:06 +0700,204,8
+c94dfb30eef12f1499a65572765e5bf7174b9478,change admin page function to GET,vietanh00,2024-05-14 18:08:43 +0700,1,1
+9ca69b3f2c2e7791cddf516cca72d37478df5fe0,ops: backup testing file,Nhung,2024-05-14 17:17:26 +0700,1316,582
+b1f9b9409b558d38980c3ad458ced4a768e5eabb,rename DELETE method,vietanh00,2024-05-14 17:10:05 +0700,1,1
+3fb8f678c19efb1ea393625e86afb9be9b103523,admin: accept any number of search param,vietanh00,2024-05-14 17:02:56 +0700,6,6
+188219ee10587fdd1c3ff39169c073befc3b1e03,admin: search parameters,vietanh00,2024-05-14 16:27:46 +0700,47,51
+867b9b6d886f03ec74f317e7c43a29ffa39fd40d,Admin: filter by role,vietanh00,2024-05-14 16:02:28 +0700,34,31
+0c842e5f7e39aa8abd4b4a62be53c33d304ad337,"Read, Update no longer return password",vietanh00,2024-05-14 15:45:00 +0700,7,9
+98eafb40678177be58a0fac2865d19cd11508acf,Restructure routes,vietanh00,2024-05-14 15:32:54 +0700,217,359
+c0b856ca8b2e7b70825a1d3d9330bda639b73080,fix: remove babel,Nhung,2024-05-14 13:57:49 +0700,0,6
+6ad4e84313dbeae89adbb1c2b2bb2ff4a31e41c7,fix: remove signup inside customer and admin,Nhung,2024-05-14 13:49:37 +0700,5601,1024
+69f7caaa993cba87959b69dcad885a055ce71392,fix bug hash password,hakhanhne,2024-05-13 15:11:37 +0700,248,11
+6fe7e2423d9134b2bdcd08f7e595cdf05b2dea1e,fix response status for unauthorized,hakhanhne,2024-05-13 14:48:46 +0700,2,2
+213549397d6a6bd99e1290236b741b36f1a0cd58,add hash password for signin signup + password constraint when signup,hakhanhne,2024-05-13 14:46:10 +0700,613,13
+d126dfc169bfe56237814f2bafaf27da112b2907,correct output for admin viewing,vietanh00,2024-05-12 20:52:53 +0700,44,40
+8bd4bd3e282cad53123d300a202436447a62f471,restructure: customer and admin,vietanh00,2024-05-12 20:19:02 +0700,243,176
+79e6b8a6b3d63552854e1f47effcdf291f66587d,nextjs: delete user,vietanh00,2024-05-12 16:21:00 +0700,59,0
+c2542bead2ec6e4b12f5ce00d0917b435525c177,next js: create user (sign up),vietanh00,2024-05-12 16:15:58 +0700,1,1
+b90f7922e5e790bcd7aeeff8fccd2da71de670d5,nextjs: update user info,vietanh00,2024-05-12 16:13:44 +0700,251,11
+b27924525e19998c7d17adc2fd3b92574fc3dfc0,implement next js,vietanh00,2024-05-12 15:23:56 +0700,588,52
+2fe6c058b76d45035dbfc6ceb409c211cbef9de8,fix bug login,hakhanhne,2024-05-09 15:13:31 +0700,2,1
+976776ffc8ed2513eb1341d47c4d520d49059f73,default value for user role,hakhanhne,2024-05-09 14:49:10 +0700,1,0
+6c06171fb6c47635facc4b9095696a19e1a2b205,update model user,hakhanhne,2024-05-09 14:26:14 +0700,88,74
+c93221292b08d88f4d6acc1571711472b026dfa5,fix: fix deploying process,Nhung,2024-05-08 17:16:11 +0700,1416,0
+f2d804de80686293eb576b42d4f783741c4ab523,fix: fix deploying process,Nhung,2024-05-08 17:14:54 +0700,10,1413
+fa7d63d8449547b943e23706dfb7160f238c44e6,fix:fix deploying,Nhung,2024-05-08 16:53:52 +0700,1404,4
+928341aa306277618f3e27b599842498bfc05b74,fix: fix npm run build bug - inside tsconfig.json,Nhung,2024-05-08 16:46:53 +0700,4,2
+b8f2c7dc2ecf280207c520b32d3b72530278df31,apply nextjs,hakhanhne,2024-05-08 15:27:12 +0700,759,437
+6df88530156407782e7d3c682c8886af9688368d,Fix return username after update,vietanh00,2024-05-06 18:39:02 +0700,20,15
+7e93cbdaba0704adda8daaf479855bce1eb5c064,Update <4 fields done,vietanh00,2024-05-06 18:23:24 +0700,7,6
+6e8e212d3cb868ff70be2a984460074a1cafd0a6,delete done,vietanh00,2024-05-06 17:56:14 +0700,16,10
+0e32a9099b4bce88a37fe491416184434755e04b,user update,vietanh00,2024-05-06 17:47:39 +0700,235,9
+61b1aa15ecd2696aa4cf167f7cbcb0fe075a69be,"create user, check existing",vietanh00,2024-05-06 15:18:23 +0700,51,19
+67594c92ea2bd6269a938c9987c4a1398fef780e,"connect mongodb, create user",vietanh00,2024-05-06 14:30:10 +0700,105,4
+e53ab9ce99885b621fd690c2f070b2a2429719ee,"mongodb uri, connection script",vietanh00,2024-05-06 12:46:46 +0700,29,0
+639c6e967a60c5a58d7e06ff560a8b71f077f1d1,feat: init,Nhung,2024-05-05 22:53:27 +0700,1785,0

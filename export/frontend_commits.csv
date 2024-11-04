@@ -1,0 +1,503 @@
+commit_id,description,username,date,code_added,code_deleted
+863c6f8464f1f09c43e344e54c706dc0101a6614,Update setting_page.dart,Giang Trong Duong,2024-09-11 22:48:57 +0700,0,25
+185a33ffd8f79a5674b068bd7e7c51965dbf94d2,Fix: invitation overflow,Giang Trong Duong,2024-09-11 22:38:26 +0700,25,21
+290a80a9d66b5014524fba91854fb712e32a6a79,Fix: Precache images,Giang Trong Duong,2024-09-11 12:15:29 +0700,35,17
+e9116e3aac0c60110a47fa36607363a7026b5eda,fix: transaction card amount overflow - user tile overflow,Nhung,2024-09-11 11:20:53 +0700,1,0
+9945d143d4215cc2f3ec6ca1603a70e3b504032e,fix: transaction card amount overflow - user tile overflow,Nhung,2024-09-11 11:19:40 +0700,80,78
+fdd06e761028e94558ac1cec8508cb052845400f,fix: fix bug when building apk,Nhung,2024-09-10 13:43:15 +0700,16,14
+963f4d7d632ec96067222940d64265772d2daf00,Fix: Update cashflow tracking component,Giang Trong Duong,2024-09-10 12:47:23 +0700,14,8
+c9e0ebef0870234008b691d7efbf6c274e486815,fix: fix overflow of transaction item inside member detail page,Nhung,2024-09-10 12:45:41 +0700,78,110
+3853353b43b38fce514d0a2e1a7c99f567868b3e,perf: delete unnecessary import,Giang Trong Duong,2024-09-10 12:25:15 +0700,14,15
+209092a341c3e782ff5a830213b0246b3eeb60d5,feat: add delete invitation inside group,Nhung,2024-09-10 11:29:06 +0700,29,4
+18d9f734b0fe0f940b2dabebcaddf56279b28ea8,style: add UI for remove invitation card on group - slidable,Nhung,2024-09-10 11:21:17 +0700,290,92
+7cf880586c88c8a05990572c31a265013a216752,feat: update style - card border of about us,Nhung,2024-09-10 10:45:04 +0700,3,1
+dff9a2a4cccf4c7122283a2c2079d6c3edc88eb4,feat: update UI to slidable to user and member cards,Nhung,2024-09-10 10:40:40 +0700,54,27
+b91222a1953e49e4d8e3a0b83355a80ea2b9086d,style: add remove by sliding inside member card,Nhung,2024-09-10 10:33:38 +0700,97,52
+78cf01b2b2403d9339bf8fc6b445e11b46aa282a,style: update elevation - shadow of remaining cards,Nhung,2024-09-10 09:33:49 +0700,6,6
+65c024f0f21ab114811aa8658b37410b4cafbe38,feat: convert elevated cards to all border cards,Nhung,2024-09-10 09:27:10 +0700,3,11
+c662fa1400721349eb61cec6503f918f3da61f5d,style: remove signin button in error page,Nhung,2024-09-10 09:24:17 +0700,14,15
+041d605d3322d4d030bea2b40e27c2eb03966091,style: update setting page UI UX - theme mode,Nhung,2024-09-10 09:24:04 +0700,2,81
+4178b41de630a1b359424e9b6e6a925d41a1d0d0,style: update setting page UI UX,Nhung,2024-09-10 09:23:42 +0700,225,48
+e13ce5c44c67746f129dfc3d79ca2e1f6f5a8fd2,fix: transaction list not reload when create new transaction,Nhung,2024-09-10 08:51:52 +0700,12,4
+1c3a04de371c9f3c1f18d36ee25fe3fc6d964680,style: re-style error page,Nhung,2024-09-10 08:34:32 +0700,39,19
+905c97988763c594a2e781fded7cc13744ab9e4b,perf: remove backup file of transaction_item,Nhung,2024-09-10 08:13:39 +0700,98,162
+59a6446557af2c42cd7e421da613c63a41adcc49,feat: update UI of transaction card,Nhung,2024-09-10 02:59:46 +0700,275,111
+1622771e5a756b293f1401c3ae6ed6d7a33d18b4,perf: remove unused lines in about us,Nhung,2024-09-10 02:09:33 +0700,0,1
+d77dbaad21c666268c074c5f533a9a48e3699ab9,perf: remove unused lines in about us,Nhung,2024-09-10 02:08:47 +0700,2,5
+90f94e383c9f7172d8e2ac89079a7d44d2ff213a,style: change about us UI,Nhung,2024-09-10 02:08:05 +0700,217,148
+30768105361079483a1410e03956ad5749962d21,style: reduce shadow of momo button and group tile,Nhung,2024-09-10 00:09:38 +0700,5,5
+53490338359e80bbfa86a32d8f8e39d8f1a8013b,fix: fix validation inside invitation form - empty user list no submit,Nhung,2024-09-10 00:05:46 +0700,6,0
+9b1dc3b60ae51e158ed682bc4dec8e7858c0dc51,style: change shadow and UI inside results of search,Nhung,2024-09-10 00:05:18 +0700,22,11
+2ab4e036b6c336935ba2534a56f91d1eefb7412f,style: remove font 'Merriweather' and replace with 'Montserrat',Nhung,2024-09-09 23:30:27 +0700,19,47
+410ae15372164e398b8760047f2de5776b11ef39,style: update category selection,Nhung,2024-09-09 23:21:28 +0700,14,13
+9f3b49c50a6789656ebb0ab96ab0e23cec4dd91d,style: align center the form transaction images,Nhung,2024-09-09 22:49:05 +0700,4,2
+57ba63e4e706462b25f8cb52ac35f450b9f60086,style: change style of warning  notification,Nhung,2024-09-09 22:46:19 +0700,18,8
+d1c6bba422c5eb404bc373add235f75c5aa764ef,style: change style of success notification,Nhung,2024-09-09 22:25:22 +0700,14,9
+e236f7cefb99a4c21515d62eed1960ee1a46aa1f,"style: change error snackbar style, change sheet background in dark mode",Nhung,2024-09-09 20:38:48 +0700,12,4
+1204a13a9c6cd99074c89163b5a10ed858e9344f,fix: fix amount bug in momo transaction form and milestone form,Nhung,2024-09-09 19:59:45 +0700,9,58
+0946956a0edf81cd3a9bf2fdf186b430f20c85c5,perf: optimize performance by removing formattedAmount props,Nhung,2024-09-09 18:56:08 +0700,8,17
+d309ee6047b69aeab7d0920326112716c207710d,"fix: fix when bug adding digit near comma, removing digit at index 0",Nhung,2024-09-09 18:43:50 +0700,12,42
+67d39a2cf549c4be062ff23aab2b3b8f57edbe1e,fix: fix cursor move to the end of amount input in form - expected to be in previous position,Nhung,2024-09-09 16:17:13 +0700,186,119
+b845fc2ebcc1aa6fa815e5e734257ada55c49ff2,"feat: add dismiss keyboard to budget, saving, challenge, milestone, user forms and sheet",Nhung,2024-09-09 12:52:05 +0700,463,386
+3de57ae26a1e82c6fb9f45d1e596f7bbd770d3dc,feat: add dismiss keyboard to auth forms,Nhung,2024-09-09 12:14:50 +0700,162,85
+12989994173bb9ef758b1b67a89664e9716f9d2d,fix: fix bug when building android,Matsuri,2024-09-09 11:43:28 +0700,31,36
+9eb744d83bc8587826d7fb6c69e85c03e69a6e4a,Fix: Update reward history and code clean up,Giang Trong Duong,2024-09-09 10:26:02 +0700,22,25
+c6a09a4b85708df0b6509b9ec0ae4ef707385b2c,"Fix: Shadow and finalize style for challenge details, challenge list, circle avatar, homepages graph, budget card, challenge card & group saving card",Giang Trong Duong,2024-09-09 10:17:00 +0700,65,84
+545c7a4e767125fb3966cd79050164b5341b0ccc,fix: fix error when creating form for group - default approve status give error,Nhung,2024-09-07 11:25:08 +0700,11,7
+87e8442bf0338b632e5a5b3e803af7a72f9222f5,Fix: Updated  more pages,Giang Trong Duong,2024-09-07 04:02:21 +0700,4,4
+d87fab604165709ea3afa5d4d9191425fee995df,Update member_detail_page.dart,Giang Trong Duong,2024-09-07 03:53:53 +0700,14,14
+232651e9b6df672fa8d678382df8de4971064cab,Fix: alignment for details pages,Giang Trong Duong,2024-09-07 03:48:44 +0700,7,6
+57237706ab9f52a16eccbbbbe5a4a1ab160b5a1f,Fix: Update layout for card group,Giang Trong Duong,2024-09-07 03:38:41 +0700,205,179
+60c8534aa01942a0fd556d4f5967b556b5e24604,Fix: QR code to more setting,Giang Trong Duong,2024-09-07 02:47:30 +0700,26,34
+d8ffdc1a821f68053ad8fc88d7aa97a25a3fc311,Fix: move QR to pages,Giang Trong Duong,2024-09-07 15:00:58 +0700,28,26
+f8af99510ca478f7c05e37de45e360c4b3d9e78f,Fix: Checkpoint details,Giang Trong Duong,2024-09-06 15:31:03 +0700,412,23
+e1d822eb696aea3583513b28a9e55d1270af9e05,style: add display momo,Nhung,2024-09-06 12:40:10 +0700,57,21
+a29ec491dbc42af8b4e557cecf31f16ce35694a8,perf: optimize performance by not updating images in transacction if list not change,Nhung,2024-09-06 12:05:41 +0700,37,7
+8bab3e9cc2f768668b8225a80904e22e99f8d06f,fix: fix uploading image in transaction update page,Nhung,2024-09-06 09:22:21 +0700,63,39
+b2a8fe4028ec5e2ce19d8a2d80d70436aa035798,finalize,Giang Trong Duong,2024-09-06 08:57:24 +0700,5,5
+39b7b7b5035b286c085304e771a03d4cd9cffc85,Update reward_history.dart,Giang Trong Duong,2024-09-05 19:43:54 +0700,1,0
+92af26af385f24d2ce62598acde07121327f6ed1,Fix: Update the button in actionRow to be clickable from the whole width,Giang Trong Duong,2024-09-05 19:41:04 +0700,19,9
+92b6adc4de224401e032982a9985de1651a7a8e0,New: Challenge reward history,Giang Trong Duong,2024-09-05 19:36:05 +0700,313,1
+194fb14b3242fae541ae540598c7826d0b1b0697,style: update code State definition for clean code,Nhung,2024-09-05 18:11:15 +0700,1,1
+95de13bf3399d0cc1c046d252759a20ff1092133,fix: fix delete transaction not pop back to previous page,Nhung,2024-09-05 17:02:32 +0700,4,5
+24059c9adf52560e2a6afc8bb09cebf62c1d6926,feat: allow user to view transaction in details page if having group id,Nhung,2024-09-05 16:52:25 +0700,35,62
+d1b5a2a4533aa3e74634bb987a29b611e440c389,style: update UI of dialog,Nhung,2024-09-05 16:38:12 +0700,142,93
+3dcae4183afdb518b53041ef0468da926f334332,Fix: null handler for expense pie chart,Giang Trong Duong,2024-09-05 15:49:19 +0700,37,91
+a8987af8d5d8b9bd8f76964d4aa8f685c1a0245e,ops: backup for testing other features,Nhung,2024-09-05 15:34:37 +0700,312,279
+e95c6819f23680633bf98e27d3cf18e028cb5561,style: update UI in time picker dialog,Nhung,2024-09-05 15:34:09 +0700,1,1
+9c06932d2aab80e1f7bb9ceec54b802110065989,"fix: fix invitation list bug in notification page - back and front, modify UI of group info inside auth invitation card",Nhung,2024-09-05 14:05:04 +0700,28,11
+50cddbe0c51eb092848bb6d0696214e7b1e52101,fix: fix not be able to run on physical device - ios,Nhung,2024-09-05 12:59:29 +0700,14,14
+1b79b7a100e45f5dd675198a11ac9cc62ebd12f2,Update: fixed back button for report pages & precaching images,Giang Trong Duong,2024-09-05 10:13:21 +0700,9,3
+5f3eff8fabf4d2a1b5dba1cecbeb4746e7773533,fix: fix exceptions thrown when launching app - ios,Nhung,2024-09-04 17:49:10 +0700,112,8
+d01c69de3e35d93974f5ccc5797d2ad92afba139,style: modify code style inside auth user invitation card,Nhung,2024-09-04 17:06:10 +0700,0,1
+413eb90481486e9d82152c7f535d55f57372196e,style: update styling for current user's invitation list - invitation card,Nhung,2024-09-04 17:04:24 +0700,29,9
+4d097aeca54a6e4797869fa9efa47928947c430c,style: update UI of logged in user's invitation card,Nhung,2024-09-04 16:38:42 +0700,47,43
+e8bd0f5eaf6c040b7350a64740fd49b6a08e82c9,fix: fix delete inside transaction dialog,Nhung,2024-09-04 15:37:12 +0700,42,17
+11b24bc855e01f29162e25bea4b88f0807a4003d,merge: merge missing files,Matsuri,2024-09-03 19:26:52 +0700,64,0
+070d9811af45f4ecd37cd35b2036b5de21f43a86,Fix: Update divider styling,Giang Trong Duong,2024-08-30 21:15:28 +0700,62,10
+2993a565bd3fb988307142eb941b56ee2f9fb4c9,Fix: minior updating to report pages,Giang Trong Duong,2024-08-30 20:49:39 +0700,11,11
+1717994a7f180e767db42658a90942f693dfaba8,Update: Monthly report updated,Giang Trong Duong,2024-08-30 20:10:16 +0700,133,45
+b83d89c1ce610003ad60c97cd2a6a8ed2029de78,Update: Spending Tracking is updated and renamed to cashflow tracking,Giang Trong Duong,2024-08-30 19:38:33 +0700,259,125
+44ab8a61f112da97f234557968f1580a8ddeb7ee,Update: performance patch for API call of report (quicker homepages),Giang Trong Duong,2024-08-30 19:38:08 +0700,17,26
+c52fe1500b1c61a69c87d5b59f78045085dd1e25,"Update: QR validate API integrated, styling and support for qr scan pages",Giang Trong Duong,2024-08-30 12:59:21 +0700,61,8
+8e1c5f756de85ab8fc80ee902a4d5eebf4fba615,Update: Styling for QR page and QR scan pages,Giang Trong Duong,2024-08-30 11:26:27 +0700,217,528
+fab93fe973c17262f4924b1f704b641d283258d9,New: QR component created and tested (Worked),Giang Trong Duong,2024-08-29 23:56:26 +0700,254,30
+530ef8e8219c2b1f5481cb97e74521661676a859,Fix: Optimize API call for invitation,Giang Trong Duong,2024-08-29 22:46:30 +0700,41,50
+269e6985115cd5c807697ae2fb0f2b2f83d70b1e,"Fix: Patched some minor bug (appbar for view all transaction, renaming feature)",Giang Trong Duong,2024-08-29 21:07:52 +0700,20,5
+adbe27364b0263b9fb1bef59721d9dde333a9bd4,Fix: date format,Giang Trong Duong,2024-08-29 20:03:13 +0700,1,1
+a6f5186d5715ac0f99a4b6eb3d37a5f02a8dad00,Fix: Update displaying of creator in challenge card,Giang Trong Duong,2024-08-29 15:56:20 +0700,5,5
+bde31087a7e6f89bcfd19e8355029cd7811b97a4,Fix: Dialog constraint height and challenge details styling,Giang Trong Duong,2024-08-29 15:08:14 +0700,7,2
+e2a7c4deb9b2ee415d4d3137f1b67ecc73fb3d10,Fix: Additional name in group card,Giang Trong Duong,2024-08-29 14:55:40 +0700,40,2
+72bfc207d442147d731015f1b1f2b1a75d4733a6,Fix: dialog to be scrollable,Giang Trong Duong,2024-08-29 14:49:15 +0700,149,147
+c290222cc9f897a12a421dc73ca7478b72ecd897,Update: Search function for group list,Giang Trong Duong,2024-08-29 14:31:58 +0700,23,13
+2f5cf3ec04e3adcbde1624d8c4d5366abb1d81be,ops: backup for formatting amount,Nhung,2024-08-29 13:55:58 +0700,69,27
+8d5012369293f9f010067643ef04b17c2e82dc5a,feat: update selection ui on category select page,Nhung,2024-08-29 13:02:56 +0700,8,6
+54fcc48adab91b6accd5b182316104b19d875f63,Update: Search bar for both pages,Giang Trong Duong,2024-08-29 12:53:21 +0700,88,23
+a4a59ac18322380906043ec4b3cbee5a531875a3,update: update UI of category selection,Nhung,2024-08-29 12:45:19 +0700,41,28
+abff16f354768b06f48562d5f8e3750889dc5d9c,Update: divider for challenge pages,Giang Trong Duong,2024-08-29 12:38:47 +0700,3,0
+e798eef289d594bc7fc6653402fc41f2914acb4e,Fix: Styling for challenge details,Giang Trong Duong,2024-08-29 12:29:27 +0700,39,15
+5557aff35b605208cd9482ba3ae61b02244efa6e,fix: fix auto login,Nhung,2024-08-29 12:27:39 +0700,2,0
+42c7f24790924583f4d75c74502f948599e626e5,Fix: disabled default flutter back button,Giang Trong Duong,2024-08-29 12:17:17 +0700,9,8
+91c9cc74b9aa704ed081e89353e74e9b23bfc72f,Fix: Update challenge to facilitate new field createdByFullName,Giang Trong Duong,2024-08-29 12:09:29 +0700,29,15
+d3d023d8dae4099eb9e9577fdca64e07e0ee8a15,Update: Host by full name field for group,Giang Trong Duong,2024-08-29 11:37:56 +0700,7,5
+8dff8a06947d6cd9b0f35c91cbd7aa5861932524,Fix: display approval,Giang Trong Duong,2024-08-29 11:13:50 +0700,5,4
+4635c66f67a3d7be6ab50a847bac513d2208685f,fix: fix null inside group form,Nhung,2024-08-29 09:14:39 +0700,2,3
+8b44882d95c0576e06e76eee27886cc05f1782ae,Update: Precaching avatar,Giang Trong Duong,2024-08-28 21:56:07 +0700,28,28
+9950433fe223457542ac512ffbeb8b19fa6d3995,feat: update UI of transaction card,Nhung,2024-08-28 21:06:48 +0700,135,98
+916a062bcf39c29d3750927eb77711d414f2ee88,"feat: add permission to form transaction - for group and personal, update and create and view mode",Nhung,2024-08-28 20:57:04 +0700,29,14
+c66bdd1ae4b8c0d5615af53f6af38fefcde59e84,Fix: Reducing layer of API to improve performance and fixed bugs,Giang Trong Duong,2024-08-28 19:20:11 +0700,86,101
+0f1fd136b05300ce3b7aa3adc0b8713bf0e947ab,"feat: add permission to form transaction - for group and personal, update and create and view mode",Nhung,2024-08-28 19:19:53 +0700,137,130
+de4b572f051dbd1591aa6234e6235a55ffd2f6c2,fix: fix group form - approve status,Nhung,2024-08-28 18:59:38 +0700,16,14
+b41f67500b1de06f0deead038663e3ab0b15a3a2,Fix: finished styling for leaderboard,Giang Trong Duong,2024-08-28 18:20:01 +0700,25,3
+b5398971490098ad1b722e82b628840f58e59e65,Update: Display rank and point for my profile,Giang Trong Duong,2024-08-28 18:12:11 +0700,4,2
+fd857f90054c0633146cfd77d57771107ff15f90,Fix: Improve performance for loading,Giang Trong Duong,2024-08-28 18:05:02 +0700,11,6
+5740f14f12609582e51e8d6d73cff22189b03156,Update challenge_model.dart,Giang Trong Duong,2024-08-28 18:04:53 +0700,7,0
+e1a98dd4fdcf54b42b461ea0b535903d33f743e5,Update: update user service for facilitate rank and points,Giang Trong Duong,2024-08-28 18:04:49 +0700,5,1
+89ab32c999a465b3ca53a6435ad70e05c6e3c08a,Update: added rank color,Giang Trong Duong,2024-08-28 18:04:10 +0700,42,2
+945bd9864d30d080cce65d1ae73bb7b226eec716,ops: update transaction form - permission update,Nhung,2024-08-28 17:57:56 +0700,105,76
+2d33836e75b1b0bd639acb44cf966f9ff2a681ee,Fix: Optimize performance of API call by reducing 2 unnecessary API call,Giang Trong Duong,2024-08-28 15:27:29 +0700,2,27
+821ce977c04819c63b6813dcba2a82324be5b46d,clean: remove unecessary file,Nhung,2024-08-28 15:22:28 +0700,0,111
+9f7199093426b6751cbfa65297e21c1af06bcd93,"Update: Support three case ""approve"", ""pending"", ""canceled"" for budget and saving approval pages",Giang Trong Duong,2024-08-28 13:49:37 +0700,289,117
+f1a28d8a237ee3d5a82c96923bd022ff90a821d9,Update: refresh indicator for my report,Giang Trong Duong,2024-08-28 13:42:00 +0700,56,53
+b6061462ba1c773e7f4784081a4aa86b4dd839ce,Fix: updated service for budget and group saving,Giang Trong Duong,2024-08-28 13:41:51 +0700,21,3
+dd7eaa453abf509e36df4c868d4218c6441d776f,Fix: debugging and fixed wrong param leading to bad response,Giang Trong Duong,2024-08-28 12:22:50 +0700,6,4
+9a8578b18a2b7d5440df7966ada883dab1c8ab89,fix: transaction will load and challenge card restyle,Giang Trong Duong,2024-08-28 12:10:03 +0700,4,2
+80c1a2903181eaf73aee690fa942ac2d3aa712e0,Fix: Challenge will update after delete,Giang Trong Duong,2024-08-28 12:09:43 +0700,34,9
+395e4bfa05a14ad955d63f67acbd30ea169c7131,update: URL launcher and add for contact us,Giang Trong Duong,2024-08-28 11:31:43 +0700,41,3
+dd9b178a9dcfbe5562c1bd63ec4c5107670e86d7,fix: reload for transaction,Giang Trong Duong,2024-08-28 11:30:52 +0700,8,4
+5b157ba6be661da47999e16bd4d1d8101a18fedd,Fix: homepages now support loading,Giang Trong Duong,2024-08-28 11:27:26 +0700,145,248
+c48903713d03ab23d8b86eb341ad6e5ec4fe1153,ops: fixing android momo,Nhung,2024-08-27 14:34:20 +0700,55,68
+5555f0bfc166f27dcee950987e9f23e49ee5eddd,update: update UI inside member detail page and momo sheet,Nhung,2024-08-27 12:08:36 +0700,45,28
+708ce1a986f85bd5c7b52d7226de95e4af660ed9,feat: integrate view history to member page - clean code,Nhung,2024-08-27 11:35:45 +0700,74,39
+9956fd340c689a4e65ff6d503024c5420f429e50,fix: fix momo icon not available,Nhung,2024-08-27 11:35:21 +0700,1,1
+0f5c907d9fa7b3e3c0ffcdf7b40626c258d59202,fix: fix update group form,Nhung,2024-08-27 11:35:04 +0700,2,2
+8db918334faf5dcbfa6f3adac8dc1ca0466c2ae2,fix: fix member detail in group saving not displayed,Nhung,2024-08-27 10:13:07 +0700,187,127
+f88e5845cbf177557fc67176242f6fa5b8f934ea,fix: fix search users fo r invitation,Nhung,2024-08-27 09:48:22 +0700,30,28
+62f1c087de5b9192bdaa1157e8bfbb0fa71eb401,fix: fix overflow in member list page,Nhung,2024-08-26 22:37:13 +0700,15,10
+6c39a20ffd24ef313c18523763dde3f556151073,feat: add momo refund,Nhung,2024-08-26 22:25:23 +0700,1,1
+ce6d04b0da8a18d7e3d1f5b87b6981634d331b04,feat: add momo refund,Nhung,2024-08-26 22:25:19 +0700,324,327
+92b149e587dd29ad4c3185fdee6001d763987d5b,Fix: delete unnecessary print for security,Giang Trong Duong,2024-08-26 14:50:50 +0700,0,6
+7e82904bcf0ca686788ab54fcba6bb64c8af80d9,Backup,Giang Trong Duong,2024-08-26 13:31:52 +0700,147,0
+1f435704f70bfccb4b850b64c7399be0c9d2481e,Fix: report chart start at 90 degree and legend for color,Giang Trong Duong,2024-08-26 13:23:22 +0700,41,9
+9574f5cdef9a373c6e0926fb8dd6c31102e17d5d,Fix: _pullRefresh function and loading indicator for view_all_transaction,Giang Trong Duong,2024-08-26 11:04:54 +0700,15,4
+b8b1e655a4ee5305ad63ad23b6e0f5ed83511e89,ops: backup for momo result page,Nhung,2024-08-26 09:29:16 +0700,193,202
+caedada1e15ea8f3c33162c6fec8a6ab8615c3ee,fix: fix momo redirecting problem,Nhung,2024-08-25 23:58:00 +0700,1,1
+342db75a497b4717202d6efc5e132197098e065c,pubspec update,Giang Trong Duong,2024-08-25 22:07:50 +0700,40,187
+51326b887c5a08bc31112890d628d17f140e7577,Fix: Button function to show dialog,Giang Trong Duong,2024-08-25 22:06:39 +0700,1,1
+82b2a530c3611945e11d688060f26bf784550ff8,ops: hosting app on firebase,Nhung,2024-08-25 21:34:52 +0700,47,6
+2f169565723a52329f8a0404b5778d8f0b782586,clean: remove unecessary testing folder,Nhung,2024-08-25 21:22:25 +0700,0,171
+baae4f579a7bf6b037372803061c8cba6d416535,Fix: some minor correction,Giang Trong Duong,2024-08-25 17:23:27 +0700,4,4
+31746e956fa520682f135600a04dd3a9a2f04bf9,Fix: update android manifest and report details styling,Giang Trong Duong,2024-08-25 16:29:34 +0700,3,1
+f236e1d26557d1fc228e3007f4c35639911e7bac,feat: remove debug text on real physical d evice,Nhung,2024-08-25 14:39:00 +0700,1,0
+c321b066d0e943a9431983c1519a79ed598cb3b2,fix: fix bottom sheet not scrollable in header,Nhung,2024-08-25 14:35:50 +0700,48,46
+cd386bbb2d87a28e2df062d26af11259cc7ea2e4,Fix: Remove const in widget.test.dart,Giang Trong Duong,2024-08-25 14:14:49 +0700,1,1
+d2306cebba539fdec7117cc7f6d1db1a1f783cbc,fix: fix approve status in group form,Nhung,2024-08-25 14:10:09 +0700,30,14
+2997f4f9acc72d6597e47894094abf52ce899d3e,Fix: MainPageApi for challenge form,Giang Trong Duong,2024-08-25 10:31:44 +0700,1,1
+b7dcd0d8b61750f4cdad906816190a4c9f6c75ad,Fix: Handle Main page to Handle Auth,Giang Trong Duong,2024-08-25 10:30:56 +0700,1,1
+4af0d6175f13674f7323cf28fef0afee1e41d262,ops: backup for fixing invitation,Nhung,2024-08-25 09:04:27 +0700,2,1
+9d01372ab42c298ab8e111b4229c640306955c7f,fix: fix multiline in search page,Nhung,2024-08-25 01:57:51 +0700,2,6
+3658b63776f3de5a8dd220a311a7968e8a2941b9,clean code,Matsuri,2024-08-25 01:54:22 +0700,2,4
+21b6b24abd7020e651b849fabf55341c22770673,feat: format challenge form,Nhung,2024-08-25 01:53:18 +0700,317,96
+8a050861808cd1dfc9a6c18f471ce7a02f8c2b87,fix: no template for transaction form from group details and no button to add trnaasaction images,Nhung,2024-08-25 01:16:24 +0700,71,68
+31c096a4b6feaab41bfd5641ce350b7b68f7cb00,fix: fix short info of group not display in transaction form,Nhung,2024-08-25 00:53:49 +0700,231,141
+672a88ea528738495c7640c20bcf647b9cce46dc,fix: revert lost changes,Nhung,2024-08-25 00:29:18 +0700,161,140
+5c2c69d8154736b946010c9af3f8aa3b3d16612b,fix: fix bug when create form transaction from group,Nhung,2024-08-24 22:48:04 +0700,6,20
+2032b5f73890e23b54b90b82c98730cd48ec1d1b,Update: Challenge can now be published,Giang Trong Duong,2024-08-24 18:57:29 +0700,58,0
+92ce5f5c85ac33b35590fcb6e1ddda9cbe7b02d7,Fix: remove duplicated form in budget form,Giang Trong Duong,2024-08-24 16:48:36 +0700,10,9
+d73af07e49347d2578af4a3a348ea89cdb7f7a4a,Update group_saving_report.dart,Giang Trong Duong,2024-08-23 23:40:07 +0700,1,1
+5401a96dbafcfc3ddbab6aade9ad1e8df864b7e9,Fix: Updated transaction list to have disableButton value,Giang Trong Duong,2024-08-23 23:40:03 +0700,11,3
+10cbbeb0a5fefa7ef24e3799ffb8803ecd22d650,Fix: Pull refresh for group inivtation pages,Giang Trong Duong,2024-08-23 19:25:52 +0700,29,16
+a6e8888fc4d8964aae111853a031c40d5d40bb42,Fix: pull to refresh on notification pages,Giang Trong Duong,2024-08-23 19:22:12 +0700,25,19
+5cb69f7f9593877802247653f421549b0d9f7b29,Fix: Rotate line in progress indicator for budget listing,Giang Trong Duong,2024-08-23 18:58:21 +0700,12,17
+0b82ace41acf59898d3bba3e3ff8da4129d67ea4,Fix: maxline 1 for search bar in invitation,Giang Trong Duong,2024-08-23 18:52:15 +0700,1,0
+cafa7ec9389f34b218348fac8524d2fb0e2bfdc2,Fix: images listing and crashing issue in approval pages,Giang Trong Duong,2024-08-23 18:48:25 +0700,419,268
+c357b7a763ef867d07eb2d96ce4e24bdb6cab38d,fix: fix invitation from group,Nhung,2024-08-23 15:29:26 +0700,5,5
+77d17802e1c518cad7467285cb977501688372f2,fix: fix groups not display,Nhung,2024-08-23 15:14:05 +0700,7,5
+7ac5f4e6386191a26a797539dd513cca88150b56,revert change?,Giang Trong Duong,2024-08-23 14:45:17 +0700,0,13
+344a45aaeb684ff48816d6b72e8dd4c98cf089be,revert change?,Giang Trong Duong,2024-08-23 14:35:44 +0700,234,713
+fbbbb91918b64630fcc954c8870a6a7a3e5bec38,fix: fix gorup form,Nhung,2024-08-23 14:22:45 +0700,6,3
+f109ba885612d132609e4b1a9a3d70e54ef3033b,ops: for running  physical device ios,Nhung,2024-08-23 14:13:43 +0700,5,2
+5837c60bd76a1777194ba948e150eab6888e4be6,ops: backup,Matsuri,2024-08-23 13:52:50 +0700,15,12
+936cae255e641c7516fe3dbc353bc1d823c1d45c,ops: backup for momo,Matsuri,2024-08-23 13:32:52 +0700,500,27
+6514fdfb29e293f5618b9cff84de65301b73fc5d, feat: display all list when searching,Nhung,2024-08-23 13:08:53 +0700,121,129
+58192208d095437265df04e27173d44ac5035f00,Fix Bug Overwrite UI,vothanhthong,2024-08-23 13:08:46 +0700,40,4
+a9a64bd0e22ce4bd4a7504c6428d0944a8dd46e9,"feat: template to transaction form""",Nhung,2024-08-23 12:35:05 +0700,13,0
+d74cdb8b7f08bf27c3a900ce4393b7b887c880da,Update UI for About Us Page,vothanhthong,2024-08-23 10:58:12 +0700,116,79
+11cf39936db88a72fc946fac4da57a01a532e2c7,Update About Us,vothanhthong,2024-08-23 10:43:01 +0700,57,46
+0796f2023f18c72ecc6c72c3b6665f6d00f3d736,Bug Github,vothanhthong,2024-08-23 10:41:26 +0700,12,12
+2eb5e8b0fd6e64218b47fc50dd9a3e346f917fb4,"Revert ""Merge remote-tracking branch 'origin/41-Testing-UI' into 26-challenge-reward-details""",Giang Trong Duong,2024-08-23 10:11:46 +0700,100,138
+c52927d1d3f44c7bbdccd52d6213548748afbcae,Create new sort menu and intergrate with Back-end,vothanhthong,2024-08-23 10:07:34 +0700,300,121
+bd4e05a02ecd7789dc53123aac5c5b02a57cd68b,ops: momo UI designing,Nhung,2024-08-22 16:38:41 +0700,153,75
+db6c3da4cd4829760be170efd602549198c0cfaf,Delete function for checkpoints,Giang Trong Duong,2024-08-22 16:32:02 +0700,60,1
+c1462aa8ed7313e924fd39ed1e2263efc5cb8f90,"challenge service modified, group saving detail and challenge details fixed",Giang Trong Duong,2024-08-22 16:07:29 +0700,21,4
+51680397988006801588e9aecbb7c3f89cccf9e7,Group saving service clean up,Giang Trong Duong,2024-08-22 16:06:49 +0700,0,7
+6c31027ee8c358b549e7f35d9774d55498d015dc,Update group heading action to include challenge creation form,Giang Trong Duong,2024-08-22 16:06:37 +0700,10,1
+5e7a0790930b0155c6a695f70238e1657267ecce,Update challenge_page.dart,Giang Trong Duong,2024-08-22 15:26:47 +0700,7,6
+b90fb66f89170c068b068ecd61ef9cc4c890dee4,Updated challenge details,Giang Trong Duong,2024-08-22 15:25:17 +0700,68,5
+627ab77995d44f0ae7d2e2d2b358ae47d430e740,Create milestone_create.dart,Giang Trong Duong,2024-08-22 15:24:58 +0700,189,0
+d39d11b4cd9de696aa587364cd41784294a550cf,Update routing for challenge_add_form,Giang Trong Duong,2024-08-22 15:24:23 +0700,1,1
+a425ffab31c61e7cfdc526ee7f37bea7f76e496b,Update checkpoint_details.dart,Giang Trong Duong,2024-08-22 15:21:19 +0700,0,32
+9f6f5164c2e5a9cae1d4d6ac1861a9f9b4d9cbbe,"Challenge service to include create milestone, delete for challenge and delete for milestone",Giang Trong Duong,2024-08-22 15:20:26 +0700,63,2
+9b7a43f7bda6c27202b246989e1801a6d82703a5,Update challenge_service.dart,Giang Trong Duong,2024-08-22 13:54:59 +0700,36,5
+375064278a6e1324254b63571e3f27001e619d0a,Update challenge details to faciliatate two type of pages creation,Giang Trong Duong,2024-08-22 13:54:48 +0700,36,15
+b3ffa29375aed50296392ed113c90beb71972c2d,Update challenge_add_form.dart,Giang Trong Duong,2024-08-22 13:54:24 +0700,146,78
+b8cfa24000deaf3d0c8ec066c16885f4b6c09cc7,Challenge card will have logic for listing,Giang Trong Duong,2024-08-22 13:54:14 +0700,3,1
+529a396adae29dfa25ed49ace3e9708ca475c35d,Create challenge_non_listing.dart,Giang Trong Duong,2024-08-22 13:53:49 +0700,95,0
+27be20d100e7fdf8fde5f16e6a3c755132dd9eb4,Update challenge_details.dart,Giang Trong Duong,2024-08-21 17:13:20 +0700,2,1
+6cfc29db9338067b91a45d04a11724b2b256c41b,Fixed non-nullable tyme reward,Giang Trong Duong,2024-08-21 17:09:49 +0700,17,5
+3c445d0f70e8390ecb197a875b6fd54a1c252020,ops: backup for momo,Nhung,2024-08-21 15:32:05 +0700,83,30
+c4255386b5a482c4904450c81817d6f844bb0ed9,"test setup""",vothanhthong,2024-08-21 14:06:39 +0700,138,100
+b61ffc343596d380c7f1ac33dd7d28b829e7737c,Update challenge_details.dart,Giang Trong Duong,2024-08-21 13:04:45 +0700,26,4
+9a5a3aa8ce26bed0fa4ce0f1084ffd57c10934c2,"ChallengeProgress model created, service include",Giang Trong Duong,2024-08-21 13:04:42 +0700,53,3
+8847260388d1960933fd11571e964e7081ee40c0,Updated challenge details pages to have stepper,Giang Trong Duong,2024-08-21 10:52:01 +0700,245,146
+5b3791185a3517c7da1906e5f909b30742757a7c,fix: create transaction - approve status not displayed,Nhung,2024-08-20 21:48:23 +0700,11,5
+770afd6be19f0c368f9daf7f7ab659d918fcfc33,style: update UI of approval form in group,Nhung,2024-08-20 20:54:22 +0700,33,17
+98be9ea8e05930318b936adc348a0f583c383450,feat: add momo button,Nhung,2024-08-20 20:05:47 +0700,337,5
+b319f24cae26e6436ecc50890f292fe8d2dab331,Update transaction dialog to have images loading,Giang Trong Duong,2024-08-20 19:33:49 +0700,25,3
+54a9aa87a20f806d769c747017b0d2e331c1a956,modify: change UI of add options list,Nhung,2024-08-20 17:24:06 +0700,11,11
+bd1e8d3c990948660812ccbce01a484e4a502370,feat: add default status to form,Nhung,2024-08-20 16:58:42 +0700,90,12
+3a3b989c5bbac6cfb6e02802b062bf015109a636,"feat: update UI of transaction images form, and clean code",Nhung,2024-08-20 16:24:40 +0700,78,70
+6422f7e136471e42207392710d43922fce969136,feat: add uploading images to transaction create form,Nhung,2024-08-20 16:17:27 +0700,374,146
+6b2173180b4962be167ce70abeff831deeaab5a2,Multiples images for approval pages,Giang Trong Duong,2024-08-20 13:25:31 +0700,52,25
+aeaa42f424490fe30afb7d07cf8bb1068320d5f2,Update home_page.dart,Giang Trong Duong,2024-08-20 12:57:16 +0700,50,53
+b619b67eeabd92d666e35cb5de90ceaccb057d57,Update transaction dialog to support multiple images,Giang Trong Duong,2024-08-20 12:56:56 +0700,35,1
+64b6ad0aac16cb3aed45376debb040baa2a04e3f,Update amount_multi_form.dart,Giang Trong Duong,2024-08-20 12:56:35 +0700,1,1
+a8d827901401d21abfc0dcbf4e75e65577e3435d,fix: update transaction model,Nhung,2024-08-20 12:35:41 +0700,217,136
+38a9ad12ad0f609149fe4012dbb9701c6e5ca4ef,feat: add app icon,Nhung,2024-08-19 15:30:39 +0700,161,238
+0b9ca7ab3b04ed4e05097c60fda996f4124d1bd6,feat: change name of app,Matsuri,2024-08-19 14:50:31 +0700,3,18
+1914ec853aa581642d65b32908a089170b5d3d45,Minor file clean up,Giang Trong Duong,2024-08-19 13:07:49 +0700,2,5
+3dccb50ac9bae3ddddd37cca7ad5bdfa5b30a20d,Comment out some print function,Giang Trong Duong,2024-08-19 12:49:29 +0700,5,6
+2c5f8726208bc61d5a838603a4aaa1cc623e7bf1,Sorting and searching for challenge page,Giang Trong Duong,2024-08-19 12:39:52 +0700,140,16
+b22e09ca749b0f5274d8e1cfa7502fb10b4b56b5,Update challenge_service.dart,Giang Trong Duong,2024-08-19 12:39:38 +0700,7,3
+b05fcf1af37d88cec32c024b321f8afe8e180cd2,Fixed no transaction case,Giang Trong Duong,2024-08-19 11:47:05 +0700,132,86
+5523191ab2f31d406fc07dbe78a25fd1727c66f5,Budget report and saving report finalization,Giang Trong Duong,2024-08-16 21:28:33 +0700,137,5
+7985b67a5be5ceeb54fbcc03df31dad5f1c47194,Update group_saving_service.dart,Giang Trong Duong,2024-08-16 21:28:14 +0700,5,1
+3152ed286ef0cf87e925f4f85be5f7b1e927afd3,Update budget_card.dart,Giang Trong Duong,2024-08-16 21:23:36 +0700,13,20
+33117558279d64aa578f6058d641013d5d545c55,Update group_saving_card.dart,Giang Trong Duong,2024-08-16 21:23:30 +0700,12,0
+727bae8af1bc1170fe75411fba1db568aa9a590d,detail fixed to have loading,Giang Trong Duong,2024-08-16 21:22:20 +0700,408,388
+191f15f60b471c4a51c091c2448ce442331ef82b,Update invitation_add_form.dart,Giang Trong Duong,2024-08-16 21:21:45 +0700,1,1
+e79be652416a59189f038aada02a1bfb1c887340,Update base_group_model.dart,Giang Trong Duong,2024-08-16 21:21:17 +0700,12,9
+de3e2cdc283ac57dc25c78c77570631fa86e64f2,Updated report_model and service to include information,Giang Trong Duong,2024-08-16 21:19:35 +0700,40,2
+b8382a2a02c970b2db5b008a3f752bc039877eff,ops: backup,Matsuri,2024-08-16 21:13:17 +0700,4,1
+1877b957a426ea2feb18863a0c86988882bb0928,fix: fix update form,Nhung,2024-08-16 16:08:40 +0700,55,15
+09d83671484cdc430d37c86b0e0ad99994520b9d,fixed challenge fetching pages,Giang Trong Duong,2024-08-16 15:56:13 +0700,14,18
+6584fb7b39581b2cf48963452c6151d572cccc99,Handle null value for challenge list to return,Giang Trong Duong,2024-08-16 15:54:43 +0700,20,20
+68e4e7ef23b7025fd1f72f3f4fc4384bb5484233,ops: fix updating transaction,Nhung,2024-08-16 15:44:52 +0700,282,232
+c3e9652580678e9f9e60e48a9fdfdc897fb39c2c,Update challenge_page.dart to include refresh indicator,Giang Trong Duong,2024-08-16 15:31:08 +0700,19,9
+80e25a13746dbe30a0b3a7d6d160958b6c51ee37,Update widget_detailed_summary_group.dart,Giang Trong Duong,2024-08-16 15:18:47 +0700,1,1
+c20c807e0168eee0fba910ffa4169dc9e1a63571,Updated loading and refreshment for budget_details and group saving details,Giang Trong Duong,2024-08-16 15:03:36 +0700,11,6
+1cb231445c9f34a7670b7fa5ab5f5863f924c1ca,Update notification pages to include loading during fetching time,Giang Trong Duong,2024-08-16 15:02:36 +0700,16,6
+03dba8a20efb02156d4c7fc1d3f13642b7745257,Update amount_multi_form.dart,Giang Trong Duong,2024-08-16 14:53:24 +0700,1,1
+e3975c183a0a906967ff4e396da82a235441ceda,Refresh indicator for list pages,Giang Trong Duong,2024-08-16 14:53:16 +0700,31,17
+c68053a611f8b84a08440d51c25d5c456d91e100,Update group_saving_details.dart,Giang Trong Duong,2024-08-16 14:15:05 +0700,3,0
+c1b7b2dffb93abb6b0d3de7ae2799481bad34052,Update group_saving_service.dart,Giang Trong Duong,2024-08-16 14:14:48 +0700,31,0
+c640ecda909e20f24ad530dce5d0d8c0cae0883b,Fixed transaction dialog,Giang Trong Duong,2024-08-16 14:14:43 +0700,30,25
+f6fd2e95c4eac04aa7acbf58fa156cd5e7c16ea0,group saving report,Giang Trong Duong,2024-08-16 14:14:28 +0700,119,0
+5aa16768e0d86120b309fc554495867a87a0d357,Create budget_report.dart,Giang Trong Duong,2024-08-16 13:56:16 +0700,118,0
+10e7d0b2916af68eedaa1d59166d191fe36f3bf1,chart created for report of 2 type,Giang Trong Duong,2024-08-16 13:56:04 +0700,144,0
+d876686882cdd0f1d1f195814b813f63a1e9fc54,Update challenge_card.dart,Giang Trong Duong,2024-08-16 12:46:22 +0700,13,4
+0806ef1e515eadb2cc14cc7a76c4050bb7ec7404,Service and model for report,Giang Trong Duong,2024-08-16 12:40:07 +0700,70,0
+3540e16928790d06637a01eb608b35afb48d8f39,Updated info row and transaction dialog,Giang Trong Duong,2024-08-16 12:39:58 +0700,8,3
+0d72107874e07b38abcaf5e4b315258e82309538,feat: add transaction form inside group details,Nhung,2024-08-16 12:31:13 +0700,144,95
+fdf388520c0eb404360e7ea7c9b336a7d27777a1,Update Installation in readme to test application on ios and android device,vothanhthong,2024-08-16 09:24:47 +0700,90,30
+2842b1880a117933c1ad7b66dfd061453fa436cf,Fontsize fix,Giang Trong Duong,2024-08-14 18:24:44 +0700,5,5
+96c899b4e95427830e2bdf5ddafca6246804907f,Updated some UI fix to be flexible,Giang Trong Duong,2024-08-14 18:21:10 +0700,304,268
+f5ef3d07e27022460b3cc7f709c34e6408e2cd7c,Hot fix: old bug,vothanhthong,2024-08-14 17:54:07 +0700,16,7
+a1de8579de0f96a5052372589512aa74c496ed63,feat: add fast add transaction to groups,Matsuri,2024-08-14 16:12:16 +0700,65,19
+b842acc67d423c0d9e966db674b2b524badf3e6a,Hot Fix UI,vothanhthong,2024-08-14 16:00:52 +0700,3,56
+16bf93f9834ad7bf6e7021a8809de38ceda22863,Fixed loading status to pop after a form is done,Giang Trong Duong,2024-08-13 19:17:12 +0700,18,4
+8e2b658a43bbe9261915817e1357cde5d4a0e1fb,Update transaction_model.dart,Giang Trong Duong,2024-08-13 19:16:54 +0700,3,1
+deb19946a893d86e8629a23c06a5fd35f0edefb0,Update saving_approve_page.dart,Giang Trong Duong,2024-08-13 10:34:02 +0700,0,2
+54e4fe0363bd000c864a27e99dbf6813ed9dc00b,Update setting_page.dart,Giang Trong Duong,2024-08-13 10:22:17 +0700,4,0
+8e5764c0936b57ebec6fe21f81d410f4dcbdbf93,Saving approval pages,Giang Trong Duong,2024-08-13 10:22:14 +0700,367,3
+cae293983a94c0172ce2646b1517ce4ad406fed5,Updated saving service,Giang Trong Duong,2024-08-13 10:22:00 +0700,33,0
+41f9bfd1527f0ab710ce4e3ff09f875c65ebec3f,Update group_heading_actions.dart,Giang Trong Duong,2024-08-13 10:03:09 +0700,1,1
+2e4553d3acab8c8d6456915a222271ec6342fcd0,Fixed some minor error,Giang Trong Duong,2024-08-13 10:02:07 +0700,57,42
+efee6e86875d1fa67c13be8ddacf6e1b40d3bb64,Update budget_approve_page.dart,Giang Trong Duong,2024-08-12 12:07:13 +0700,6,3
+b1f9c1baec75d18bcff5b8c4acc5e7bafe78493d,Approval page fixed and tested (no transaction update yet),Giang Trong Duong,2024-08-12 11:42:47 +0700,46,22
+2dd8a2636b47f1d4bab56ab17f581b99c4433787,Approval and decline service,Giang Trong Duong,2024-08-12 11:42:25 +0700,18,0
+af8d3db41cd8f6a5669d4efd0ea23643af11d221,feat: change desc text field in transaction form to multiline,Nhung,2024-08-11 02:06:18 +0800,32,9
+bbb372ef94b0120bfb2790e8fd537e8eb64e7a28,fix: fix invitation card not update when accept or delete,Nhung,2024-08-11 01:59:52 +0800,28,256
+b4429a5a7085ad6caf65bd6fa734f690505cab24,Update budget_approve_page.dart,Giang Trong Duong,2024-08-11 00:19:59 +0700,26,7
+ee49b415cea8263e4f3502439e716c0e0d911f51,Updated transaction model with field image,Giang Trong Duong,2024-08-11 00:19:48 +0700,9,1
+0ef4e6e933ea4a01147f8ab183764ca6158bbd26,Create full_screen_image.dart,Giang Trong Duong,2024-08-11 00:19:21 +0700,30,0
+7d2e7f913bc11e849a5043388eec707d4a75d695,Updated approval detail pages to display 2 type of transaction status,Giang Trong Duong,2024-08-10 19:16:44 +0700,252,14
+cd449998d9a0b0253881fac6f57a19c0cb5528a8,Update base_group_model.dart,Giang Trong Duong,2024-08-10 15:26:26 +0700,4,1
+4ded6085b15dd1a9320509bc8dc2376815c65d80,Update budget_service.dart for new type of status,Giang Trong Duong,2024-08-10 15:26:18 +0700,43,2
+aad91384cb0bd6060c7dead03bb51c71d9906e46,Rebuild UI for monthly tabbar: Allow user change year and month inifinitely,vothanhthong,2024-08-09 22:20:57 +0700,251,32
+5108d96116d33a2b3895496b63086ba1a0b19a44,"Updated homepages with tips,",Giang Trong Duong,2024-08-09 18:40:31 +0700,139,68
+a85f627ba8874d5424c9e632300260deaa2bcde6,Update line chart and some styling for spend_tracking,Giang Trong Duong,2024-08-09 18:12:43 +0700,62,25
+5ac7f3138f338a4a7b604b513cc8b518d768dc84,Update member_detail_page.dart,Giang Trong Duong,2024-08-09 18:11:25 +0700,30,52
+e47b72951e68b35d70b48e955251edd8df5d430e,Updated member_details_page,Giang Trong Duong,2024-08-09 16:31:28 +0700,75,55
+e5b66dd1942f1ed963af3e4f7a6e24fd007dddd5,Updated memberlist pages to have tips and member details pages,Giang Trong Duong,2024-08-09 12:24:34 +0700,39,22
+7e96c3444bfc50f8ba695195d909c85c7cfddc43,Updated money format,Giang Trong Duong,2024-08-09 00:28:31 +0700,6,4
+0582d20cae5657d88c91f7703566488834ce5521,Add budget approval pages,Giang Trong Duong,2024-08-08 21:33:55 +0700,70,11
+2645c4eae25e17dddf9241dfdd647ea67cadd85f,Heading fixed to make it more stylized with rest of application,Giang Trong Duong,2024-08-08 17:50:36 +0700,3,3
+85b690a067baacb05bcc4fbc6fdd567a238e98cd,Challenge and checkpoint redesign,Giang Trong Duong,2024-08-08 17:40:10 +0700,7,13
+d30a449f5b489d571128b5117071c755923d6478,Some quality of life and UI improvement,Giang Trong Duong,2024-08-08 17:35:42 +0700,215,199
+2ffe7654fa0003d8a79b200111a4a62fbd7def38,Merge remote-tracking branch 'origin/40-fixing-category' into 32-challenge-structure,Matsuri,2024-08-08 14:33:21 +0700,26,51
+23822b8d902e1dbeb7e923bae50a2411a8961d0b,Fixed form group field to be correctly according to form type,Giang Trong Duong,2024-08-08 11:56:57 +0700,15,4
+c0d4fd31e8859f40a922a200ecfb02a0e17f2488,Update checkpoint_details.dart,Giang Trong Duong,2024-08-08 11:32:28 +0700,33,30
+005afa2323a480823726db70ebb3a4c77075564a,Update budget_card.dart,Giang Trong Duong,2024-08-08 11:20:53 +0700,18,8
+43c6bfcee8648ae343404ccbf65002efa0c09134,Update checkpoint_details.dart,Giang Trong Duong,2024-08-07 23:10:29 +0700,21,21
+a16e4aa2852be7b4d1df70204dd3b81132352a93,Challenge details pages fixing,Giang Trong Duong,2024-08-07 22:57:12 +0700,33,4
+71e53b514f2333758a61f4c3f8b71efbc468b4dc,Styling for pages challenge list and new logic for isPublished,Giang Trong Duong,2024-08-07 22:41:35 +0700,85,90
+0ce288e6428fc68036af3b8931f7be71b913aa6e,Color fixed and details fixed,Giang Trong Duong,2024-08-07 21:13:53 +0700,107,42
+3ccd029d28969ac44dcde86a51b0aa7be1641049,fix:n separate category bug,Nhung,2024-08-07 19:34:04 +0700,0,170
+b86d0896db90a01abc82179ff2282d51b75c826e,ops: backup for form,Nhung,2024-08-07 18:59:49 +0700,188,39
+c6ca0557315df5189160c53bf0d98448373f71c8,Updated,Giang Trong Duong,2024-08-07 18:59:18 +0700,208,143
+2572d723c0e42356a777cef2c87011a04e8f5bd1,Updated chart information and details page data to be accurate,Giang Trong Duong,2024-08-07 17:59:23 +0700,18,23
+2b9560c62f5bf7e991c5db0b5ff58c10a8391f05,Update challenge_card.dart,Giang Trong Duong,2024-08-05 17:32:29 +0700,0,16
+acf1c77480c6b35903f31a187265fb2d1cefc9c8,Challenge list styling and merging,Giang Trong Duong,2024-08-05 17:26:46 +0700,96,90
+a305853938cee877fc4e163e59c8f3d01223bdc0,Updated routing for challenge in more page,Giang Trong Duong,2024-08-05 17:11:03 +0700,28,2
+0fcab092d7d7deafd13e5f93bcfd19b11f6b7d02,Delete challenge_details_page.dart,Giang Trong Duong,2024-08-05 17:10:42 +0700,0,306
+1689c953cc5ee963d4765b077cd2762805988759,Challenge by id service,Giang Trong Duong,2024-08-05 17:10:34 +0700,38,2
+5260a5bd1e45423bd88d5d19fbda532b3d208925,Update checkpoint_details.dart,Giang Trong Duong,2024-08-04 23:03:04 +0700,21,1
+1b98e60e91b22f0f265401e11ef3b8645d6fbdef,fix: fix adding group form and clear form,Nhung,2024-08-04 20:17:08 +0700,4,3
+ed7f596dcda3d10361119197bf1388bfe627025a,fix: fix group saving form,Nhung,2024-08-04 20:00:00 +0700,40,29
+5937265f994bfd196efb9ddf40b6021b46c216a0,fixed model to add reward,Giang Trong Duong,2024-08-03 21:32:17 +0700,22,9
+04c959e52eef9bafaebf3aca03e5e9d83bd785a9,Update checkpoint_details.dart,Giang Trong Duong,2024-08-03 21:12:26 +0700,70,74
+a4e51f446a66a84dd552fd8b5f5b3973d0b1cd99,Update checkpoint_details.dart,Giang Trong Duong,2024-08-03 21:12:01 +0700,98,42
+943dd53d782aae6a9226c7b4864536e71d5feef5,"Fixed model, initial data for checkpoint details",Giang Trong Duong,2024-08-03 20:54:40 +0700,48,8
+03dc34a26ec0c9a98f19898ad4da461ccaf14a43,Check point fixed for details loading,Giang Trong Duong,2024-08-02 23:53:21 +0700,5,9
+b9bd8d19840250e9bf3f000b1a999060baeb46e9,CheckPoint details pages,Giang Trong Duong,2024-08-02 23:47:44 +0700,106,47
+cfe2f3a6f0072584088fb316c9bb54939d8d5743,Updated to routing and checkpoint details pages,Giang Trong Duong,2024-08-02 23:01:06 +0700,78,5
+b0c09241e80d688a969dd56ac4a97338e66c85e7,Updated new resource to Yaml,Giang Trong Duong,2024-08-02 23:00:47 +0700,13,12
+9aa8697645b4884bbd2866cd55f40ffcf0499503,Updated challenge details pages,Giang Trong Duong,2024-08-02 22:38:49 +0700,97,34
+a2ac248d15eee2de59147df1602136fbecff811d,Update group_saving_details.dart,Giang Trong Duong,2024-08-02 13:33:13 +0700,9,7
+82b3c52ae27a26e035a70b51b2dcec6a456fc8df,"Updated budget details pages, fixed chart for consistent and logic.",Giang Trong Duong,2024-08-02 13:15:42 +0700,57,25
+f35534c0369f11a108f63e272ddd806ea644659a,fix: fix form problem,Nhung,2024-08-01 13:51:19 +0700,409,407
+a9d013c3feeea3025b599bcfdafd0e3da21c414d,Update user list,Giang Trong Duong,2024-08-01 12:55:55 +0700,42,24
+4374c38b813f73fdcab2d89f03838af3a9bdf5b1,Update challenge details and initial configuration for member list,Giang Trong Duong,2024-08-01 00:07:49 +0700,334,119
+5eeaa3d0a815347239e9fda39084bc645333771c,"Pushed model and service for challenge (still error, changing machine)",Giang Trong Duong,2024-07-30 20:03:01 +0700,76,7
+c68609dc1070175e847a33497082abe7092e446b,fix: fix form,Nhung,2024-07-30 18:57:59 +0700,445,65
+eeb9a610c01c9d65fabe5cc4191e4b126610a972,hot fix ui challenge,vothanhthong,2024-07-30 18:57:21 +0700,5,5
+c2ebc926a6166571d9f1aed416c03239c28e3399,Models and servicr,Giang Trong Duong,2024-07-30 18:54:58 +0700,136,16
+416065c42bc9874b52b87b57bca147d515c549d1,Completed UI for challenge card in challenge page.,vothanhthong,2024-07-30 18:31:11 +0700,221,13
+2967fdcc8a6bee987d842f75fbde331549dfa483,Updated description,Giang Trong Duong,2024-07-30 15:30:09 +0700,65,57
+97b0a565d873fe94890b7aaa757be93a16445ab2,Updated challenge details,Giang Trong Duong,2024-07-30 15:14:19 +0700,110,3
+ab691f8ca322105a1b43520b437fccad11a2c2fe,"Revert ""Dart fix""",Giang Trong Duong,2024-07-26 09:54:45 +0700,85,69
+29669ea0959b8504510d561c64bc7eaae91ad8c3,Dart fix,Giang Trong Duong,2024-07-25 10:11:59 +0700,69,85
+09dd4b73d2955fe80a6f042ed8abb38c9d46a7c1,fix: fixing transaction form,Nhung,2024-07-23 15:15:21 +0700,28,26
+efa742a75165f5928d6666de0a3ec9102a8f03eb,fix: fix snackbar not display when opening bottom sheet,Nhung,2024-07-22 12:12:23 +0700,127,101
+625b5685a6d495b55f6b1d5ac9463871aaf54471,feat: update theme mode,Nhung,2024-07-22 00:51:01 +0700,125,43
+1cd323f1901e158c9f8a412a88b0365167094c7e,feat: multify transaction form,Nhung,2024-07-21 20:58:57 +0700,204,157
+0b9af861b26fe69f41dbbfe78b43a9e75c4a8c6a,"Auto stash before merge of ""25-view-budget-list-and-saving-list"" and ""origin/7-transaction-list-and-view-transaction-details""",Matsuri,2024-07-21 12:29:51 +0700,29,23
+a4c16e2d19b98b53ccc2db6b287dd704f038e58f,merge,Nhung,2024-07-21 12:29:13 +0700,44,13
+3d185acd0b0ab641a287869559679e381e711eb0,feat: modify transaction page UI,Nhung,2024-07-20 23:24:20 +0700,30,45
+a182e0fd1a85a6018ed45c118a41c6f2361ca023,feat: add no group display to budget and saving list - modify UI and login in transaction list page,Nhung,2024-07-20 19:55:23 +0700,379,84
+36ef317c534c09e4f35ca87cb2b87acb3abeedfa,Minor adjustment to improve pages layout,Giang Trong Duong,2024-07-19 12:27:38 +0700,2,0
+d73c85a2f022c0fa511b02e906af02aeee30c3b1,Updated saving details pages with new chart and layout,Giang Trong Duong,2024-07-19 12:23:30 +0700,188,123
+0bc3397adb6eb4ca7a39aa1a1c7178a08d206adc,Fixed user_box not updating images in more pages,Giang Trong Duong,2024-07-19 11:33:58 +0700,3,2
+94255c1c76dd240e4eb5787ba415eb160626011d,feat: fix no saving group display,Nhung,2024-07-19 11:12:11 +0700,17,16
+5b3a2a3e099b13eeb8646607c66aaa5fdb1ccd79,Update .metadata,Giang Trong Duong,2024-07-19 10:52:34 +0700,1,1
+86979f37cac079643cb9f7fbe08e7d3c853c56e1,"feat: add theme mode setting, add search form for transaction",Nhung,2024-07-18 13:47:58 +0700,1383,522
+171414e3e2a638a97315c0c027f986e5be1324e1,feat: add filter sort to invitation list,Nhung,2024-07-18 03:00:56 +0700,959,287
+eaaa8c379b59ff5444c839c28403700fb6d68807,"Completed Display transaction for budget, transactions of each members",vothanhthong,2024-07-15 15:11:15 +0700,110,16
+de58803efd1c74a5f59776c9db2577c976980287,update: update UI of search page,Nhung,2024-07-14 17:14:17 +0700,26,19
+2ba6ba26da8c760a7eb30cc49e0231ee76223903,feat: add delete func when add users to invitation form,Nhung,2024-07-14 17:02:40 +0700,355,279
+ae73e5ab344d65f7f0d2e5e8a2226487fa1395ca,feat: update invitation form and search func,Nhung,2024-07-14 14:25:09 +0700,345,151
+6f7171de327fca15e5aee50747acdef979a00b7b,feat: add search page to search user list,Nhung,2024-07-11 17:13:55 +0700,367,197
+5bdf869986c97b3ce1533a8b3b7bf5b188388d4d,fix fi member details not display,Nhung,2024-07-10 21:56:50 +0700,197,171
+81dc3469dba270efebaa0c48713b29bbdc9a8e6c,feat: add upload avatar and progress bar on memember detail page,Nhung,2024-07-10 14:06:50 +0700,379,21
+41c7c526afd35f25034b2cd8dae1158d9c3ba1e7,Done Display All Transactions of Budget,vothanhthong,2024-07-10 12:38:59 +0700,37,11
+41243e3f4a9af913c64d48d6f77d559f0a83d05c,merge: merge transaction list to budget page,Nhung,2024-07-09 14:13:49 +0700,88,173
+959f5b3c8a9922bb4293bfd77873b7606bf5de2c,feat: add summary on member page - budget group,Nhung,2024-07-09 14:06:34 +0700,409,180
+c549e8c43a2ad4c1e84ac6e95124d18ac56cf47d,fix: fix bug in member page,Nhung,2024-07-09 11:42:52 +0700,436,244
+303f21ded2ae6b3f177b0780b4e9c142127afa65,add transaction section to budget details,vothanhthong,2024-07-09 11:40:54 +0700,220,167
+5bc7b2362e171e8c4286c8c29bfec818e0a7b756,Merge from branch 25,vothanhthong,2024-07-09 08:45:37 +0700,12,12
+ff475eedef4bfce839d7428185354817c0eba3b7,fix: fix auto login,Nhung,2024-07-08 15:29:28 +0700,24,16
+faf309060f061ce5bc2c38c43a0ad9e6aad6665f,feat: update user UI - add parent model for user and summary user model,Nhung,2024-07-08 15:10:01 +0700,427,347
+23eda37109775fc515694a5bfa0c0300fb74edf1,feat: modify UI,Nhung,2024-07-08 00:04:06 +0700,469,125
+221f5c90ae926aa585a685b55ce9ca5bc71b4f45,Update budget_details.dart,Giang Trong Duong,2024-07-04 21:09:36 +0700,1,1
+e2e320d58154c8a952858906e8aaa394cb4a1c0a,feat: modify UI,Nhung,2024-07-04 14:00:18 +0700,307,136
+d2d740c1d8bb23a935bc82a811afa396c2bbd191,feat: done feat invitation page,Nhung,2024-07-04 12:49:12 +0700,149,71
+3833982821f1e2314b8da61be11df8e20378a5e3,"feat: add cache when fetch API, add pending invitation list of group",Nhung,2024-07-04 12:18:50 +0700,639,134
+47d46bb0c1d1a39fe90dab11764ffabd0e9054e1,feat: done auth notification,Nhung,2024-07-04 01:53:46 +0700,473,199
+d0e7172b286db5c17fc69871557fc4939b195493,ops: doing invitations,Nhung,2024-07-03 19:15:04 +0700,232,133
+e02eaa46f5054786d534ae5efdb541a87e95a5a9,feat: modify UI of Budget Details,Nhung,2024-07-03 15:51:30 +0700,420,334
+34e8891e583532fe21296108fbf3f357bb52211a,feat: fix bug in scroll  to the end inside transaction section - Homepage,Nhung,2024-07-03 12:21:54 +0700,34,40
+192f835a40f05891c103578b64e08ba4aea20248,About us pages,Giang Trong Duong,2024-07-03 12:03:56 +0700,146,12
+2191fb9293cf30709ce659a4a2588093e303ec97,feat: change UI of homepage,Nhung,2024-07-03 12:03:29 +0700,2,2
+b09503cffc8ed3e7240d5b7fda21d6a55bf12d12,feat: change UI of homepage,Nhung,2024-07-03 11:44:50 +0700,68,13
+12925dd51426692d49d642efd2a8f3df3d0fa6a4,Update budget details to load in sync,Giang Trong Duong,2024-07-03 11:42:03 +0700,1,1
+ff24e5550cddb5bc8d59f52c6310155ef8ea699e,Merge remote-tracking branch 'origin/19-view-budget-analysis' into 25-view-budget-list-and-saving-list,Matsuri,2024-07-03 11:05:26 +0700,478,143
+ad5755c8139b728dab4bdfa16211c67275159ebf,"Add more default category type, Create View All Transaction Page has Sort, Filter",vothanhthong,2024-07-03 10:42:11 +0700,225,47
+05de0f563e2685471f34cf5a61695346135ae978,feat: add heading actions to budget detail page,Nhung,2024-07-03 00:27:37 +0700,177,109
+997ada720162fa43013397f8dc5b082da701485b,Updated user fetching for budget details,Giang Trong Duong,2024-07-03 00:18:09 +0700,25,3
+eae7c1b739cadc1b817c8087d4a327f07eef6e17,feat: implement invitation,Matsuri,2024-07-03 00:13:38 +0700,151,22
+7b0324bb6d7578901399ce8dd14c9a313b32bc4b,Update budget_details.dart,Giang Trong Duong,2024-07-02 22:50:21 +0700,24,1
+e098c2fad1230c4533214c39c533e87d851c046a,Finished budget details,Giang Trong Duong,2024-07-02 22:44:06 +0700,115,41
+002ab3d3152da5383304174b43d0ceea8dbd6302,feat: done goal and budget list page,Nhung,2024-07-02 19:27:13 +0700,1091,257
+e82ff7667740139406af04d562bc51ce47f8e8b7,setup budget details pages and graph,Giang Trong Duong,2024-07-02 19:09:30 +0700,157,0
+8101f3cd29f90113900ca66fa9867da4a948d073,Fixed some component of exisitng pages,Giang Trong Duong,2024-07-02 19:09:13 +0700,14,5
+7b8475660ade620be3162ad13a85a1a2183b79fc,feat:add budget list,Nhung,2024-07-01 11:47:04 +0700,168,101
+e8d2f490bcd2e8133cf6b9000b3bf042e3cce51f,feat: add update budget,Matsuri,2024-06-26 07:54:37 +0800,397,39
+2ccdb50765e8a84bb17cfb41d173c36f6492e000,COmmit,Matsuri,2024-06-25 00:44:34 +0700,70,0
+0a20875a46f1f5f7dcae1893d6e5aeb232c99fb5,Updated some styling for existing,Giang Trong Duong,2024-06-23 17:45:57 +0700,11,13
+e6fd212289e5b61e32a80252a02eb78858ad28f2,Styling tracking page to be more consistent,Giang Trong Duong,2024-06-20 16:36:20 +0700,36,25
+d97dfac189996567eaea07d422b71b689882467d,restyle report page to be more consistent,Giang Trong Duong,2024-06-20 16:36:02 +0700,14,8
+2834295a7b54a0c6ab9bbc04f6325aa7a1426b1d,Styling Chart to be more consistent in color,Giang Trong Duong,2024-06-20 16:35:44 +0700,7,2
+73fabc5effac12950d571ab2140a54140295eb91,Updated color for main graph to fit theme,Giang Trong Duong,2024-06-20 15:14:07 +0700,14,14
+af47d9c45edea3168ef407b5fb8c0b60a39d8a2d,fix: fix  bug budget group,Nhung,2024-06-20 13:54:17 +0700,565,32
+1fd5a537e9a1ee6d22fd6a4f9726e78a98c61524,feat: add update transaction page,Nhung,2024-06-20 13:13:11 +0700,328,86
+6a50c03bdceb11d8ec6caf2cb93bec178a98cde4,fix: fix bud when fetching transaction,Nhung,2024-06-20 10:19:30 +0700,48,15
+a1a10c907359ab5c08dfa23be3791c84ba36b5c0,feat: add store value to system even when close,Nhung,2024-06-20 09:55:20 +0700,37,4
+a7bd494a5fe14d529acd30eeb2ef302918723cc9,feat: done transaction form with success snackbar,Nhung,2024-06-20 09:36:47 +0700,105,17
+257c72bf37232cc7cf7138057c972c8bbeb88d6e,feat: done transaction form,Nhung,2024-06-20 03:02:52 +0700,741,439
+12703cde181ba8a31310c7451da36039411734c6,feat: fix UI bug inside login page,Nhung,2024-06-19 22:54:50 +0700,700,243
+a555fd10c16a61a3b931eeb017b4cccfabf99cc1,"fix: fix splash screen not display dark mode, add theme to local storage, and fix overlay not display when login",Nhung,2024-06-19 15:46:57 +0700,77,49
+ad643b5a4691482a27d76a3d49fd454186af0976,fix: fix navigateSheetToSheet not found budg,Nhung,2024-06-19 15:19:48 +0700,62,16
+89842a0378ff685cf553171c3ea55baba07942c7,Update tip_card.dart to allow text wrap,Giang Trong Duong,2024-06-19 15:17:58 +0700,2,0
+26bb91e45e074dfaa5f0089034f2856876daac87,feat: adding form,Nhung,2024-06-19 15:02:40 +0700,474,25
+73ea2bd566f6dbd2148ec49dc23abd572e7f6668,feat: add adding options to sheet in Home,Nhung,2024-06-18 21:13:59 +0700,86,51
+0f481179362799c5dbcf0931cfeea021992a2d05,fix: fix network timeout using retry - fix autologin bug,Nhung,2024-06-18 19:14:00 +0700,192,56
+36b61f52024d3adf0267354de838b85fa7b96d93,feat: done user list in admin side,Nhung,2024-06-18 16:36:35 +0700,328,200
+dd04fe8c2050d6dd5aebd3d3cadd5a76f2ee3c79,feat: update UI of sort filter box of User,Nhung,2024-06-18 13:17:31 +0700,3,1
+52198a2f9caf9ab0ee78e8f5d067eaebae06079a,feat: add sort to User Filter Sort Box,Nhung,2024-06-18 13:11:17 +0700,94,20
+657fd16a6ca11bc5dc913d1c34a3e5727b83bd51,Update home_page.dart,Giang Trong Duong,2024-06-18 12:03:29 +0700,1,1
+46d7639ce6a6d214fa8d7468a99afed058ede400,fix: fix theme not change,Nhung,2024-06-18 12:01:27 +0700,3,3
+4a5a849216d56e65e07fa9ca3a25e9b719d1d447,fixed overflow,Giang Trong Duong,2024-06-18 12:00:38 +0700,13,13
+3988501ae79e7d5cd6b707ac336e835e8b24ad17,merge: merge and fix rendering problem - Spending Tracking overflow',Nhung,2024-06-18 11:56:10 +0700,4,4
+d13cbc507367ca7f3f4276f90ad016aa46f71ae9,feat: clean code,Matsuri,2024-06-18 11:36:04 +0700,11,13
+7a2502f2427037cb97cd94d9ecc7306c826c88da,feat: add filter to user list - reusable heading actions,Nhung,2024-06-18 11:29:14 +0700,223,53
+f3b26a3f8789cf5c2910f770955ef2774176d716,feat: add filter for admin user list,Nhung,2024-06-18 01:09:28 +0700,298,22
+34165522f8fbf885078b7d0b32156b2614ab3b7a,Create UI for Popup of each transaction,vothanhthong,2024-06-16 10:29:03 +0700,109,35
+08e91b36e101ef7f179618bb0985bf0979f24a29,Integrate FE with BE for list of transaction,vothanhthong,2024-06-15 21:53:36 +0700,229,213
+9792940d528fffe526539b5be00fb0d4d1fa8e11,feat: update change in backend - update user,Nhung,2024-06-15 01:08:35 +0700,1,1
+9f6bc57934e9b1c10a30b44a6ad99230c341aace,feat: finish delete user function,Nhung,2024-06-15 00:46:56 +0700,128,121
+2843261906e3f41d70d8db4452d34a1133a4650c,ops: backup user list,Nhung,2024-06-14 22:23:54 +0700,106,107
+1cfa453ccb606375e9495a3ed48b5bbb1dfadf98,"Completed UI for Transaction, and List of Transaction",vothanhthong,2024-06-14 21:40:28 +0700,422,95
+d6b154c85ec04e3de8df28623d9aaf40df4e4adb,Homepages bar chart updated,Giang Trong Duong,2024-06-14 19:17:17 +0700,94,5
+aadae5e3c9de58d371e1f9e8ad76f6c3824f37e5,"Added color for pie chart, custom icon for each category and category colors",Giang Trong Duong,2024-06-14 18:43:42 +0700,49,12
+5583e29d53d53b3fb8860a0cac7abe67c6ec648d,fix: fix merge error,Nhung,2024-06-14 14:32:24 +0700,74,47
+68a5d307f26379e9b3a411c42a87014b49dd22ea,"Updated report pages, pie chart and card widget",Giang Trong Duong,2024-06-14 13:56:25 +0700,214,33
+cbb1e878cfac48e21c52eb369f7dcdffce275c46,Create Scrollable Tab Bar for Monthly Transaction,vothanhthong,2024-06-14 12:54:53 +0700,427,16
+84c369428c5d3f2f88f04c6aaccf399dbbc85283,doc: update readme,Nhung,2024-06-14 10:49:14 +0700,24,11
+bd1008563c4bd1a0eae0c4aaf3cc9d146034fde1,feat: clone github to bitbucket,Nhung,2024-06-14 10:41:43 +0700,12,12
+e20c992118fdd827785ae81f9cdb9e96106f1524,ops: creating models,Nhung,2024-06-14 10:14:44 +0700,113,13
+1b7b67bfb03c944ca1746be4c557b74cb058d547,Initial commit,TymeX RMIT 04,2024-06-14 02:47:54 +0000,79,0
+ce2dc171ff037b75b1bcdc7d0dffddb6797b6b1f,Refactor my wallet to spend tracking,Giang Trong Duong,2024-06-14 00:05:13 +0700,9,9
+f792e1b2fe1f86d07fc611cae57f665de1b98060,"Finished wallet pages, rename files",Giang Trong Duong,2024-06-13 23:10:02 +0700,176,15
+7a960a8f87b8dd44f5d15d1d6769d301a3324d1d,Refactor files names,Giang Trong Duong,2024-06-13 22:00:58 +0700,4,4
+bbb31bf79888dda1bd00aa0c204dd19ada781fb2,feat: update file name,Nhung,2024-06-13 22:00:55 +0700,18,18
+7247b55ac5fc903e6cc8f41b860f36c5122a76cc,"feat: update all other didpopnext, and fix color not look like figma",Nhung,2024-06-13 20:49:43 +0700,72,70
+f21d9fb27f258e9380e9a689ce217439b1297236,"feat: add theme to main content, fix dispose error when poping navigator",Nhung,2024-06-13 20:26:21 +0700,187,170
+b143552d745fa5324df61b42298ac89f8704f8fb,"feat: add theme to auth page, add error message below input form",Nhung,2024-06-13 18:05:44 +0700,466,303
+fe4e9f770fcd3fe030f146f2c0e29da7999b1d8f,Top category fetching from database,Giang Trong Duong,2024-06-13 17:03:29 +0700,52,8
+3fd38d04e778a364e5b5c02ae85c3380bfaf8a86,"Decorate the homepages barchart, fixed component and added loading animation",Giang Trong Duong,2024-06-13 16:05:53 +0700,101,29
+40b04b208cfab268cb02115507397827fd74d183,Fixed report page and wallet to fetch data directly from user,Giang Trong Duong,2024-06-13 12:07:36 +0700,175,108
+5bf0981215060972b23242ff2e251f8b33ebad7a,"Line chart value fixed, can fetch data now",Giang Trong Duong,2024-06-13 09:58:32 +0700,69,56
+97f6da4c91ae469c99ed19ea667217423a2228be,Fixed report pages and allow data to be fetch,Giang Trong Duong,2024-06-13 09:36:14 +0700,51,33
+f446360de4fe5099c02e58f225a320c1ba3fb3ce,Fixed several components of pages from STL to STF,Giang Trong Duong,2024-06-13 00:26:05 +0700,259,160
+f12f5ddf23b602ec15fa99cb0df1cd4250d649c2,Fixed some changes,Giang Trong Duong,2024-06-12 17:35:02 +0700,9,12
+2121dd3122e4df0c34e7fee9507ae503665ecc6b,feat: update handle api functions' names,Nhung,2024-06-11 18:12:41 +0700,16,16
+4b2920bc9d1181bf8a0ad2221e85f03e184c8882,ops: backup merge branch 5 & 6,Nhung,2024-06-11 18:11:21 +0700,22,23
+a73bf796fda14d6bfd04217ad5f6c7e162282806,feat: update function of rendering API,Nhung,2024-06-11 17:51:46 +0700,96,101
+e50956b9ff2f831c9867d0409469202827949009,feat: add theme to heading bar:,Nhung,2024-06-11 15:22:38 +0700,218,133
+4b4312e59a57fbac195f1a52a4e61b45161f5371,fix: fix continue navigating to error page,Nhung,2024-06-11 15:01:20 +0700,5,5
+6952a0b16b0487c02d1ced89adfeb5636efaf55e,"Report pages created, formating, additional reusable assets",Giang Trong Duong,2024-06-06 19:16:26 +0700,192,6
+69985dbb4aba77fd9391a3ef49b79770012b1a5e,"transaction item created, Card created",Giang Trong Duong,2024-06-06 19:15:43 +0700,54,0
+d9365d641cf4c02d47c3630ffb1ee9a0e972ec2f,"Rename files, minor changes in chart and mywallet pages",Giang Trong Duong,2024-06-06 19:15:24 +0700,218,35
+bbb9b3e4207824beb3a20d0f943e01aa7fda808f,"Rename files, delete old files",Giang Trong Duong,2024-06-06 19:14:51 +0700,0,121
+418c9be8f369027b35e07c51b1420106cfa0f37a,Styling for transaction component and routing for my report pages,Giang Trong Duong,2024-06-06 13:58:34 +0700,105,1
+8391f1662f56bde860d1c57c265887c99569def5,Styling for chart component of report page,Giang Trong Duong,2024-06-06 13:58:11 +0700,46,0
+e8f2ad4bbd4507124c8f34dc00466c55d1431acb,Created report pages,Giang Trong Duong,2024-06-06 13:57:40 +0700,25,0
+d73ce0fc0606328cc6b2d2f69c0b03c8b94aacc2,feat: modify folder strucutre,Nhung,2024-05-21 16:51:04 +0700,143,123
+050efd038337f78e93fa999ed92d193774e75ff9,Update README.md,Giang Trong Duong,2024-05-21 13:42:41 +0700,13,3
+951f5758fdf8d997cc8d677a5337608dab05138a,feat: update password and username conditions for validation :,Nhung,2024-05-21 00:28:47 +0700,31,6
+88c1a2d7105a886f8a91cbc18c5ee437cb0d69b9,fix: not navigate to signin from signup view,Nhung,2024-05-21 00:15:04 +0700,2,1
+b0b0423e24dccdda0bab2c40643047fd9613408e,fix: change not display when update user,Nhung,2024-05-21 00:12:54 +0700,141,8
+8d9c25dc666e90c33e3edc66e74f4f8ca9bf3cd0,feat: finanlize signout and authentication: :,Nhung,2024-05-20 23:48:04 +0700,92,1
+1b3123a74e69a86a19ca2b415f8858c57f935c93,feat: separate home page for admin and customer,Nhung,2024-05-20 23:28:43 +0700,169,59
+67b7a13c1021ac950a3363921524b6c96637222f,feat: integrate logout,Nhung,2024-05-20 22:07:21 +0700,62,47
+7a9f017fc005595c5e382bdfb12a1da0f21fe287,feat: integrate update password,Nhung,2024-05-20 22:04:26 +0700,89,40
+988c19ef07a7640e9c990cd78c8d7053d7d3e63b,feat : connect backend to update profile,Nhung,2024-05-20 21:55:19 +0700,418,242
+3c8763da338321a0e91b970a64f23a4ca99af4a8,feat: modify UI and folder structure of more page,Nhung,2024-05-20 18:33:22 +0700,311,237
+2ecc96e637e0e0749e27ed0b70419021fb72f970,feat: done styling splash screen,Nhung,2024-05-20 01:02:21 +0700,7,41
+ed119d5a7d90f78c4292037033303087c4cadd31,ops: temp add splash screen,Nhung,2024-05-20 01:00:34 +0700,26,19
+a54593b33dcdaa6455cf25b298fc3c16f152285a,ops: backup splash,Matsuri,2024-05-20 00:56:28 +0700,22,13
+fa5b6d23a9ff98275538d8463dc9e2239e9dfb36,feat: add auto login,Nhung,2024-05-20 00:00:41 +0700,230,150
+4af5066a04ee96c7917814402d1764201a11406c,feat: add splash screen detect auto login,Nhung,2024-05-19 21:54:01 +0700,709,144
+cbcc9b0e290e79f141c5da87291d11530905978b,"feat: add loader when authenticating, add input pin page frontend",Nhung,2024-05-18 18:38:47 +0700,129,4
+ffd4becc6bfc6f8e17b805dd1ff0e7c7c083d625,feat: add localStorage feature + add signup integration,Nhung,2024-05-18 17:26:10 +0700,385,43
+840b160adf803ad508f8c3f67c003dc9612638cf,feat: update text in auth page to reusable,Nhung,2024-05-18 13:12:13 +0700,25,40
+ff8afeafd5881c49b164e275bd45030b2f9f9e20,fix: fix dio display + add error page and error page navigation,Nhung,2024-05-18 00:59:35 +0700,904,97
+978c900f52c0e825ef801b1c3d2f54429ef04a2b,fix: fix error not define _client inside auth_service,Nhung,2024-05-17 14:07:45 +0700,7,6
+f96989b848696a415e841c6de28af3332653e0ff,feat: add integrate using dio,Nhung,2024-05-17 13:14:30 +0700,138,12
+277d6a0a3e08c490e97b1b7dc51365bb924c06bb,feat: add integrate login to page,Nhung,2024-05-17 13:04:52 +0700,157,14
+35490b841ed53bb11de5a5478e6bbe7811a8aaca,ops: backup,vothanhthong,2024-05-16 12:39:48 +0700,253,113
+3bd98974437c4b18d058e191058fe6626a9a4600,Updated change password form,Giang Trong Duong,2024-05-16 12:05:03 +0700,180,62
+be8871cd76826958f477402021379ddd43ac6bcd,"Linkage between pages, updated user profile and form to adapt to back-end",Giang Trong Duong,2024-05-16 10:49:35 +0700,23,18
+65b3f78625dcdf442b49bc237a0764c20cc2c4ea,Added form for update user info,Giang Trong Duong,2024-05-16 10:27:28 +0700,153,8
+b88e25698ad70af34990c9364fcd03cb1de5c82c,Update more_setting_widget.dart,Giang Trong Duong,2024-05-15 22:33:27 +0700,2,2
+998831ecd43428cd3cf505f1eaf9cf04fe614fd5,"Updated user_profile.dart, component files, common files, rearrange some files",Giang Trong Duong,2024-05-15 22:23:42 +0700,265,132
+25790f1e3d3e5e79def4d43084adf30441a32cbd,"Added color to app_color, minor code adjustment and comment",Giang Trong Duong,2024-05-15 20:30:27 +0700,9,12
+e25fb5ec06a37ae99fb4b0f1f6cd0354b0a0cf5a,Work on more_menu/more_setting and more,Giang Trong Duong,2024-05-15 20:00:15 +0700,182,13
+2432914ac883eb26f803a1fd6d16e2f28752b236,"Created more.dart pages as starting point, adding resources",Giang Trong Duong,2024-05-15 17:13:32 +0700,405,123
+36e5fe0932f594629756f19e76f8e24b6228f946,Updated some files for resources,Giang Trong Duong,2024-05-15 14:24:53 +0700,145,0
+80560ed44e85d647ad3abb0c0d046548959b1e7d,"feat: update auth template, and add hide view password field",Nhung,2024-05-14 11:55:19 +0700,464,282
+de82a439c5eb9c864ac4209f848808031f8cad38,feat: add auth template,Nhung,2024-05-14 01:07:27 +0700,809,244
+3c02ef69478fea8274df8af4da49003b43d4df3b,feat: add init sign in,Nhung,2024-05-09 13:31:23 +0700,344,87
+b462b449cca8084daa132e96a31658d2eaab1d8e,feat: add .example.env + update git ignore,Nhung,2024-05-06 10:52:46 +0700,3,0
+0b8b3e6f48bf18e6e7e307155b04e72f537c7eb7,feat: init,Nhung,2024-05-06 09:35:46 +0700,4955,0
